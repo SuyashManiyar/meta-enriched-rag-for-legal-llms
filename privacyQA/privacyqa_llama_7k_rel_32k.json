@@ -1,0 +1,23 @@
+{
+  "stage": "sft",
+  "do_train": true,
+  "model_name_or_path": "meta-llama/Llama-3.2-3B-Instruct",
+  "dataset": "privacy_qa_7k_rel_32k",
+  "template": "llama3",
+  "finetuning_type": "lora",
+  "lora_target": "all",
+  "output_dir": "privacyqa_llama_7k_rel_32k",
+  "per_device_train_batch_size": 64,
+  "gradient_accumulation_steps": 2,
+  "lr_scheduler_type": "cosine",
+  "logging_steps": 640,
+  "warmup_ratio": 0.1,
+  "save_steps": 8000,
+  "learning_rate": 5e-05,
+  "num_train_epochs": 2.0,
+  "max_samples": 32000,
+  "max_grad_norm": 1.0,
+  "loraplus_lr_ratio": 16.0,
+  "fp16": true,
+  "report_to": "none"
+}
