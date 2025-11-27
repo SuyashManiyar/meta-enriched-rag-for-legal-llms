@@ -3,7 +3,7 @@
 import sys
 sys.path.append('..')
 
-from vectorstore.build_index import IndexBuilder
+from vectorstore.vector_store_factory import VectorStoreFactory
 from utils.file_utils import load_json, ensure_dir
 from utils.timing import timing_decorator
 import yaml
@@ -27,19 +27,21 @@ def build_vectorstore(config_path: str = "../config/rag_config.yaml"):
     print(f"Loaded {len(chunks)} chunks")
     
     # Build index
-    print("\n=== Building Vector Index ===")
+    print(f"\n=== Building Vector Index ({config['retrieval']['index_type']}) ===")
     ensure_dir(paths['data']['index'])
-    db_path = f"{paths['data']['index']}/vectors.db"
     
-    builder = IndexBuilder(
-        db_path=db_path,
+    # Create builder based on index type
+    full_config = {**config, 'paths': paths}
+    builder = VectorStoreFactory.create_builder(
+        index_type=config['retrieval']['index_type'],
+        config=full_config,
         embedding_model=config['embedding']['model_name']
     )
     
     builder.build(chunks)
     builder.close()
     
-    print(f"\n✓ Vector store saved to {db_path}")
+    print(f"\n✓ Vector store built successfully!")
 
 
 if __name__ == "__main__":

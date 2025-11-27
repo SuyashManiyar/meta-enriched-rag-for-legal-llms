@@ -13,7 +13,11 @@ embedding:
 retrieval:
   top_k: 5
   similarity_threshold: 0.7
-  index_type: "faiss"  # faiss, hnsw, sqlite-vec
+  index_type: "faiss"  # faiss, milvus, sqlite-vec
+
+faiss:
+  index_type: "Flat"  # Flat (exact), IVF (fast), HNSW (balanced)
+  metric: "L2"  # L2 or IP (inner product)
 
 reranking:
   enabled: true

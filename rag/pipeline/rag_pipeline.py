@@ -3,7 +3,7 @@
 import sys
 sys.path.append('..')
 
-from vectorstore.query_index import IndexQuerier
+from vectorstore.vector_store_factory import VectorStoreFactory
 from generator.llama_infer import LlamaGenerator
 from generator.formatter import PromptFormatter
 from utils.timing import timing_decorator
@@ -24,10 +24,11 @@ class RAGPipeline:
         with open("../config/paths.yaml", 'r') as f:
             self.paths = yaml.safe_load(f)
         
-        # Initialize components
-        db_path = f"{self.paths['data']['index']}/vectors.db"
-        self.retriever = IndexQuerier(
-            db_path=db_path,
+        # Initialize retriever based on index type
+        full_config = {**self.rag_config, 'paths': self.paths}
+        self.retriever = VectorStoreFactory.create_querier(
+            index_type=self.rag_config['retrieval']['index_type'],
+            config=full_config,
             embedding_model=self.rag_config['embedding']['model_name']
         )
         

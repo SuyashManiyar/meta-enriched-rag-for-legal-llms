@@ -1,7 +1,19 @@
+# Core ML/NLP
 torch>=2.0.0
 transformers>=4.35.0
 sentence-transformers>=2.2.0
-sqlite-vec>=0.1.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# Data Processing
 numpy>=1.24.0
+pandas>=1.5.0
+
+# Configuration & Utils
 pyyaml>=6.0
 tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: For evaluation
+scikit-learn>=1.3.0
