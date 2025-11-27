@@ -1,0 +1,21 @@
+# RAG Pipeline Configuration
+
+chunking:
+  chunk_size: 512
+  chunk_overlap: 50
+  strategy: "recursive"  # recursive, fixed, semantic
+
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 32
+  normalize: true
+
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.7
+  index_type: "faiss"  # faiss, hnsw, sqlite-vec
+
+reranking:
+  enabled: true
+  model: "local"  # cohere, jina, local
+  top_n: 3

@@ -1,0 +1,2 @@
+{"current_steps": 640, "total_steps": 1000, "loss": 0.0584, "lr": 1.735761737592236e-05, "epoch": 1.28, "percentage": 64.0, "elapsed_time": "0:25:18", "remaining_time": "0:14:14"}
+{"current_steps": 1000, "total_steps": 1000, "epoch": 2.0, "percentage": 100.0, "elapsed_time": "0:39:35", "remaining_time": "0:00:00"}
