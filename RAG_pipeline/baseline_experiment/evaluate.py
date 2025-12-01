@@ -185,7 +185,7 @@ if __name__ == "__main__":
     print(json.dumps(span_metrics, indent=2))
 
     # Text-based evaluation with 90% threshold
-    text_results = evaluate_text_retrieval(gt, ret, chunks, top_k=10, threshold=0.9)
+    text_results = evaluate_text_retrieval(gt, ret, chunks, top_k=10, threshold=1)
     text_metrics = compute_text_metrics(text_results)
-    print("=== Text-based Retrieval Metrics (90% word coverage) ===")
+    print("=== Text-based Retrieval Metrics (100% word coverage) ===")
     print(json.dumps(text_metrics, indent=2))
