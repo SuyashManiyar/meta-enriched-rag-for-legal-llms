@@ -1,0 +1,555 @@
+{
+  "1": {
+    "chunk_id": "privacy_qa_23andMe_chunk1",
+    "span": [
+      0,
+      2350
+    ]
+  },
+  "2": {
+    "chunk_id": "privacy_qa_23andMe_chunk2",
+    "span": [
+      2285,
+      4715
+    ]
+  },
+  "3": {
+    "chunk_id": "privacy_qa_23andMe_chunk3",
+    "span": [
+      4564,
+      6956
+    ]
+  },
+  "4": {
+    "chunk_id": "privacy_qa_23andMe_chunk4",
+    "span": [
+      6769,
+      9236
+    ]
+  },
+  "5": {
+    "chunk_id": "privacy_qa_23andMe_chunk5",
+    "span": [
+      9078,
+      11805
+    ]
+  },
+  "6": {
+    "chunk_id": "privacy_qa_23andMe_chunk6",
+    "span": [
+      11570,
+      14232
+    ]
+  },
+  "7": {
+    "chunk_id": "privacy_qa_23andMe_chunk7",
+    "span": [
+      14055,
+      16534
+    ]
+  },
+  "8": {
+    "chunk_id": "privacy_qa_23andMe_chunk8",
+    "span": [
+      16337,
+      18960
+    ]
+  },
+  "9": {
+    "chunk_id": "privacy_qa_23andMe_chunk9",
+    "span": [
+      18791,
+      21575
+    ]
+  },
+  "10": {
+    "chunk_id": "privacy_qa_23andMe_chunk10",
+    "span": [
+      21448,
+      23998
+    ]
+  },
+  "11": {
+    "chunk_id": "privacy_qa_23andMe_chunk11",
+    "span": [
+      23804,
+      26398
+    ]
+  },
+  "12": {
+    "chunk_id": "privacy_qa_23andMe_chunk12",
+    "span": [
+      26398,
+      29225
+    ]
+  },
+  "13": {
+    "chunk_id": "privacy_qa_23andMe_chunk13",
+    "span": [
+      29225,
+      31773
+    ]
+  },
+  "14": {
+    "chunk_id": "privacy_qa_23andMe_chunk14",
+    "span": [
+      31547,
+      34153
+    ]
+  },
+  "15": {
+    "chunk_id": "privacy_qa_23andMe_chunk15",
+    "span": [
+      33921,
+      36350
+    ]
+  },
+  "16": {
+    "chunk_id": "privacy_qa_23andMe_chunk16",
+    "span": [
+      36133,
+      38886
+    ]
+  },
+  "17": {
+    "chunk_id": "privacy_qa_23andMe_chunk17",
+    "span": [
+      38589,
+      41382
+    ]
+  },
+  "18": {
+    "chunk_id": "privacy_qa_23andMe_chunk18",
+    "span": [
+      41177,
+      43534
+    ]
+  },
+  "19": {
+    "chunk_id": "privacy_qa_23andMe_chunk19",
+    "span": [
+      43370,
+      46051
+    ]
+  },
+  "20": {
+    "chunk_id": "privacy_qa_23andMe_chunk20",
+    "span": [
+      45814,
+      48201
+    ]
+  },
+  "21": {
+    "chunk_id": "privacy_qa_23andMe_chunk21",
+    "span": [
+      47960,
+      50613
+    ]
+  },
+  "22": {
+    "chunk_id": "privacy_qa_23andMe_chunk22",
+    "span": [
+      50378,
+      52622
+    ]
+  },
+  "23": {
+    "chunk_id": "privacy_qa_23andMe_chunk23",
+    "span": [
+      52622,
+      54158
+    ]
+  },
+  "24": {
+    "chunk_id": "privacy_qa_Fiverr_chunk1",
+    "span": [
+      0,
+      2557
+    ]
+  },
+  "25": {
+    "chunk_id": "privacy_qa_Fiverr_chunk2",
+    "span": [
+      2336,
+      4716
+    ]
+  },
+  "26": {
+    "chunk_id": "privacy_qa_Fiverr_chunk3",
+    "span": [
+      4490,
+      7187
+    ]
+  },
+  "27": {
+    "chunk_id": "privacy_qa_Fiverr_chunk4",
+    "span": [
+      6924,
+      9527
+    ]
+  },
+  "28": {
+    "chunk_id": "privacy_qa_Fiverr_chunk5",
+    "span": [
+      9291,
+      11662
+    ]
+  },
+  "29": {
+    "chunk_id": "privacy_qa_Fiverr_chunk6",
+    "span": [
+      11445,
+      13798
+    ]
+  },
+  "30": {
+    "chunk_id": "privacy_qa_Fiverr_chunk7",
+    "span": [
+      13657,
+      16224
+    ]
+  },
+  "31": {
+    "chunk_id": "privacy_qa_Fiverr_chunk8",
+    "span": [
+      15964,
+      18576
+    ]
+  },
+  "32": {
+    "chunk_id": "privacy_qa_Fiverr_chunk9",
+    "span": [
+      18377,
+      20888
+    ]
+  },
+  "33": {
+    "chunk_id": "privacy_qa_Fiverr_chunk10",
+    "span": [
+      20663,
+      23368
+    ]
+  },
+  "34": {
+    "chunk_id": "privacy_qa_Fiverr_chunk11",
+    "span": [
+      23167,
+      25422
+    ]
+  },
+  "35": {
+    "chunk_id": "privacy_qa_Groupon_chunk1",
+    "span": [
+      0,
+      2317
+    ]
+  },
+  "36": {
+    "chunk_id": "privacy_qa_Groupon_chunk2",
+    "span": [
+      2168,
+      4628
+    ]
+  },
+  "37": {
+    "chunk_id": "privacy_qa_Groupon_chunk3",
+    "span": [
+      4466,
+      7054
+    ]
+  },
+  "38": {
+    "chunk_id": "privacy_qa_Groupon_chunk4",
+    "span": [
+      6836,
+      9287
+    ]
+  },
+  "39": {
+    "chunk_id": "privacy_qa_Groupon_chunk5",
+    "span": [
+      9091,
+      11455
+    ]
+  },
+  "40": {
+    "chunk_id": "privacy_qa_Groupon_chunk6",
+    "span": [
+      11273,
+      13842
+    ]
+  },
+  "41": {
+    "chunk_id": "privacy_qa_Groupon_chunk7",
+    "span": [
+      13561,
+      16121
+    ]
+  },
+  "42": {
+    "chunk_id": "privacy_qa_Groupon_chunk8",
+    "span": [
+      15948,
+      18626
+    ]
+  },
+  "43": {
+    "chunk_id": "privacy_qa_Groupon_chunk9",
+    "span": [
+      18459,
+      21182
+    ]
+  },
+  "44": {
+    "chunk_id": "privacy_qa_Groupon_chunk10",
+    "span": [
+      20962,
+      23458
+    ]
+  },
+  "45": {
+    "chunk_id": "privacy_qa_Groupon_chunk11",
+    "span": [
+      23238,
+      25934
+    ]
+  },
+  "46": {
+    "chunk_id": "privacy_qa_Groupon_chunk12",
+    "span": [
+      25934,
+      27447
+    ]
+  },
+  "47": {
+    "chunk_id": "privacy_qa_Keep_chunk1",
+    "span": [
+      0,
+      2488
+    ]
+  },
+  "48": {
+    "chunk_id": "privacy_qa_Keep_chunk2",
+    "span": [
+      2233,
+      4911
+    ]
+  },
+  "49": {
+    "chunk_id": "privacy_qa_Keep_chunk3",
+    "span": [
+      4670,
+      7201
+    ]
+  },
+  "50": {
+    "chunk_id": "privacy_qa_Keep_chunk4",
+    "span": [
+      7034,
+      9550
+    ]
+  },
+  "51": {
+    "chunk_id": "privacy_qa_Keep_chunk5",
+    "span": [
+      9370,
+      10904
+    ]
+  },
+  "52": {
+    "chunk_id": "privacy_qa_TickTick_ To Do List with Reminder, Day Planner_chunk1",
+    "span": [
+      0,
+      2600
+    ]
+  },
+  "53": {
+    "chunk_id": "privacy_qa_TickTick_ To Do List with Reminder, Day Planner_chunk2",
+    "span": [
+      2422,
+      3179
+    ]
+  },
+  "54": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk1",
+    "span": [
+      0,
+      2107
+    ]
+  },
+  "55": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk2",
+    "span": [
+      2107,
+      4430
+    ]
+  },
+  "56": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk3",
+    "span": [
+      4242,
+      6596
+    ]
+  },
+  "57": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk4",
+    "span": [
+      6463,
+      8660
+    ]
+  },
+  "58": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk5",
+    "span": [
+      8660,
+      11008
+    ]
+  },
+  "59": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk6",
+    "span": [
+      10833,
+      12995
+    ]
+  },
+  "60": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk7",
+    "span": [
+      12885,
+      15357
+    ]
+  },
+  "61": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk8",
+    "span": [
+      15141,
+      17646
+    ]
+  },
+  "62": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk9",
+    "span": [
+      17446,
+      19959
+    ]
+  },
+  "63": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk10",
+    "span": [
+      19852,
+      22335
+    ]
+  },
+  "64": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk11",
+    "span": [
+      22124,
+      24558
+    ]
+  },
+  "65": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk12",
+    "span": [
+      24370,
+      26706
+    ]
+  },
+  "66": {
+    "chunk_id": "privacy_qa_Viber Messenger_chunk13",
+    "span": [
+      26456,
+      27664
+    ]
+  },
+  "67": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk1",
+    "span": [
+      0,
+      2286
+    ]
+  },
+  "68": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk2",
+    "span": [
+      2286,
+      4888
+    ]
+  },
+  "69": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk3",
+    "span": [
+      4706,
+      7349
+    ]
+  },
+  "70": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk4",
+    "span": [
+      7152,
+      9471
+    ]
+  },
+  "71": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk5",
+    "span": [
+      9351,
+      11959
+    ]
+  },
+  "72": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk6",
+    "span": [
+      11740,
+      14218
+    ]
+  },
+  "73": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk7",
+    "span": [
+      14086,
+      16680
+    ]
+  },
+  "74": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk8",
+    "span": [
+      16438,
+      17831
+    ]
+  },
+  "75": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk9",
+    "span": [
+      17690,
+      19694
+    ]
+  },
+  "76": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk10",
+    "span": [
+      19440,
+      21802
+    ]
+  },
+  "77": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk11",
+    "span": [
+      21751,
+      24088
+    ]
+  },
+  "78": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk12",
+    "span": [
+      23838,
+      26376
+    ]
+  },
+  "79": {
+    "chunk_id": "privacy_qa_Wordscapes_chunk13",
+    "span": [
+      26134,
+      28090
+    ]
+  }
+}
