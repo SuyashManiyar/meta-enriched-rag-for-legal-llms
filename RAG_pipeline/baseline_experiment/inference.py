@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModel
 # ============================================================
 # CONFIG (edit paths as required)
 # ============================================================
-INPUT_TEST_JSON = "/home/smaniyar_umass_edu/BioNLP_Ontology/other/nlp/RAG_data/Test/privacy_qa.json" # have from chunking py file
+INPUT_TEST_JSON = "/home/smaniyar_umass_edu/BioNLP_Ontology/other/nlp/RAG_data/Test/privacy_qa.json" # Ground Truth JSON
 QUERY_ID_JSON = "/home/smaniyar_umass_edu/BioNLP_Ontology/other/nlp/RAG_data/Test/privacy_qa_queries_with_ids.json" #createrd here 
 METADATA_JSON = "/home/smaniyar_umass_edu/BioNLP_Ontology/other/nlp/RAG_data/embeddings_with_span/metadata_privacy_qa.json" # have from embedding py file
 FAISS_INDEX = "/home/smaniyar_umass_edu/BioNLP_Ontology/other/nlp/RAG_data/embeddings_with_span/faiss_index_privacy_qa_with_span.bin" #have from embedding py file 
