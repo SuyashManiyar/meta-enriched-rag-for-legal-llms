@@ -350,7 +350,7 @@ def chunk_folder_llama_json_recursive(
 chunk_folder_llama_json_recursive(
     input_folder="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa",
     output_json="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_chunks_recur.json",
-    chunk_size=500,
+    chunk_size=380,
     window=50,
     model_name="thenlper/gte-large"
 )
