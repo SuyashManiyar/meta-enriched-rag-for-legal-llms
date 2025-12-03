@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional, Tuple
 def chunk_folder_llama_json(
     input_folder: str,
     output_json: str,
-    chunk_size: int = 500,
+    chunk_size: int = 380,
     window: int = 50,
     model_name: str = "thenlper/gte-large"
 ):
@@ -79,13 +79,13 @@ def chunk_folder_llama_json(
     with open(output_json, "w", encoding="utf-8") as jf:
         json.dump(result, jf, ensure_ascii=False, indent=2)
 
-# chunk_folder_llama_json(
-#     input_folder="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa",
-#     output_json="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks_recur_no_meta.json",
-#     chunk_size=500,
-#     window=50,
-#     model_name="thenlper/gte-large"
-# )
+chunk_folder_llama_json(
+    input_folder="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud",
+    output_json="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_chunks/chunks_fixed.json",
+    chunk_size=500,
+    window=50,
+    model_name="thenlper/gte-large"
+)
 
 # ========================================================================================================================
 # Recursive chunking implementation
@@ -347,11 +347,11 @@ def chunk_folder_llama_json_recursive(
     with open(output_json, "w", encoding="utf-8") as jf:
         json.dump(result, jf, ensure_ascii=False, indent=2)
 
-chunk_folder_llama_json_recursive(
-    input_folder="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa",
-    output_json="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_chunks_recur.json",
-    chunk_size=380,
-    window=50,
-    model_name="thenlper/gte-large"
-)
+# chunk_folder_llama_json_recursive(
+#     input_folder="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa",
+#     output_json="/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_chunks_recur.json",
+#     chunk_size=500,
+#     window=50,
+#     model_name="thenlper/gte-large"
+# )
 
