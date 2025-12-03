@@ -9,10 +9,10 @@ import faiss
 # CONFIG
 # =========================
 EMBED_MODEL = "thenlper/gte-large"
-CHUNK_JSON_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks_recur.json" #get this from chunking py 
+CHUNK_JSON_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_fixed.json" #get this from chunking py 
 
-FAISS_INDEX_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/embeddings_with_span/faiss_privacy_qa_recur.bin" #update these two as outputs from this pipeline
-META_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/embeddings_with_span/faiss_privacy_qa_recur.json" # update this 
+FAISS_INDEX_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed_dense.bin" #update these two as outputs from this pipeline
+META_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed_dense.json" # update this 
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 BATCH = 16

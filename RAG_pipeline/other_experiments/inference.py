@@ -12,11 +12,11 @@ from collections import defaultdict, Counter
 # ============================================================
 # CONFIG (edit paths as required)
 # ============================================================
-INPUT_TEST_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa.json" # Ground Truth JSON
-QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_queries_with_ids_recur_bm25.json" #createrd here 
-METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/faiss_privacy_qa_recur.json" # have from embedding py file
-FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/faiss_privacy_qa_recur.bin" #have from embedding py file 
-OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/retrieval_results_recur_bm25.json" # Output I get 
+# INPUT_TEST_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa.json" # Ground Truth JSON
+QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json" #createrd here OR give path if already generated (dont rerun, comment assign_query_ids call in main)
+METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed.json" # have from embedding py file
+FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed.bin" #have from embedding py file 
+OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_fixed_dense_sparse.json" # Output I get 
 
 EMBED_MODEL = "thenlper/gte-large"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -424,7 +424,7 @@ def build_output_json_dense_sparse(
 # ============================================================
 if __name__ == "__main__":
 
-    assign_query_ids(INPUT_TEST_JSON, QUERY_ID_JSON)
+    # assign_query_ids(INPUT_TEST_JSON, QUERY_ID_JSON)
 
     # build_output_json(
     #     query_id_json=QUERY_ID_JSON,
@@ -439,5 +439,5 @@ if __name__ == "__main__":
     faiss_path=FAISS_INDEX,
     output_json=OUTPUT_RETRIEVAL_JSON,
     topk=64,
-    alpha=0.5  # tune fusion weight if needed
+    alpha=0.8  # tune fusion weight if needed
 )
