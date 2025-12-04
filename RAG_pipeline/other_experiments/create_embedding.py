@@ -9,10 +9,10 @@ import faiss
 # CONFIG
 # =========================
 EMBED_MODEL = "thenlper/gte-large"
-CHUNK_JSON_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_fixed.json" #get this from chunking py 
+CHUNK_JSON_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_keyword_summary.json" #get this from chunking py 
 
-FAISS_INDEX_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed_dense.bin" #update these two as outputs from this pipeline
-META_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed_dense.json" # update this 
+FAISS_INDEX_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.bin" #update these two as outputs from this pipeline
+META_PATH = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.json" # update this 
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 BATCH = 16
@@ -74,7 +74,8 @@ def build_faiss_index():
     next_id = 1
 
     for chunk_id, data in chunks.items():
-        text = data["chunk_text"]
+        # text = data["chunk_text"]
+        text = data["chunk_text_with_metadata"]
         span = data["span"]
 
         emb = encode_texts([text])

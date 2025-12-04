@@ -14,9 +14,9 @@ from collections import defaultdict, Counter
 # ============================================================
 # INPUT_TEST_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa.json" # Ground Truth JSON
 QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json" #createrd here OR give path if already generated (dont rerun, comment assign_query_ids call in main)
-METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed.json" # have from embedding py file
-FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_fixed.bin" #have from embedding py file 
-OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_fixed_dense_sparse.json" # Output I get 
+METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.json" # have from embedding py file
+FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.bin" #have from embedding py file 
+OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_keyword_metadata.json" # Output I get 
 
 EMBED_MODEL = "thenlper/gte-large"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"

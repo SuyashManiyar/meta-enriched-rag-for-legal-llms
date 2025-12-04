@@ -6,7 +6,7 @@ import re
 # ============================================================
 
 GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_queries_with_ids_recur_bm25.json"
-RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/retrieval_results_recur_bm25_0.8.json" 
+RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/retrieval_results_recur_dense_w_window_metadata.json" 
 CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/privacy_qa_chunks_recur.json"
 OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_recur_data/exp2_recursive_dense_bm25_cosine_0.8.json"
 
