@@ -6,10 +6,15 @@ from tqdm import tqdm
 # INPUT PATHS
 # ============================================================
 
-GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json"
-RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_keyword_metadata.json"
-CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_keyword_summary.json"
-OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_evals/eval_recur_dense_w_keyword_metadata.json"
+GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_w_query_ids.json"
+RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_inference/retrieval_results_recur_dense_window_metadata_n_doc_name_corrected.json"
+CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_chunks/chunks_window_summary_n_doc_name.json"
+OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_evals/eval_recur_dense_w_window_metadata_n_doc_name.json"
+
+# GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json"
+# RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_window_metadata_n_doc_name.json"
+# CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_window_summary_n_doc_name.json"
+# OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_evals/eval_recur_dense_w_window_metadata_n_doc_name.json"
 # ============================================================
 
 K_VALUES = [1, 2, 4, 8, 16, 32, 64]

@@ -7,16 +7,23 @@ from transformers import AutoTokenizer, AutoModel
 import re
 import math
 from collections import defaultdict, Counter
+from tqdm import tqdm
 
 
 # ============================================================
 # CONFIG (edit paths as required)
 # ============================================================
-# INPUT_TEST_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa.json" # Ground Truth JSON
-QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json" #createrd here OR give path if already generated (dont rerun, comment assign_query_ids call in main)
-METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.json" # have from embedding py file
-FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_keyword_metadata.bin" #have from embedding py file 
-OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_keyword_metadata.json" # Output I get 
+# INPUT_TEST_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset.json" # Ground Truth JSON
+
+QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_w_query_ids.json" #createrd here OR give path if already generated (dont rerun, comment assign_query_ids call in main)
+METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_embs/faiss_emb_recur_w_window_summary_n_doc_name.json" # have from embedding py file
+FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_embs/faiss_emb_recur_w_window_summary_n_doc_name.bin" #have from embedding py file 
+OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_inference/retrieval_results_recur_dense_window_metadata_n_doc_name.json" # Output I get 
+
+# QUERY_ID_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json" #createrd here OR give path if already generated (dont rerun, comment assign_query_ids call in main)
+# METADATA_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_window_metadata_n_doc_name.json" # have from embedding py file
+# FAISS_INDEX = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_embs/faiss_emb_recur_w_window_metadata_n_doc_name.bin" #have from embedding py file 
+# OUTPUT_RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_window_metadata_n_doc_name.json" # Output I get 
 
 EMBED_MODEL = "thenlper/gte-large"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -76,7 +83,7 @@ def assign_query_ids(input_json_path, output_json_path):
     out = {}
     qid = 1
 
-    for t in tests:
+    for t in tqdm(tests):
         key = f"query_id_{qid}"
         doc_id = extract_doc_id(t.get("snippets", []))
 
@@ -313,7 +320,7 @@ def build_output_json(query_id_json, meta_path, faiss_path, output_json):
 
     out = {}
 
-    for qid, qinfo in query_data.items():
+    for qid, qinfo in tqdm(query_data.items()):
         query_text = qinfo["query"]
         doc_id = qinfo.get("doc_id")
 
@@ -426,18 +433,18 @@ if __name__ == "__main__":
 
     # assign_query_ids(INPUT_TEST_JSON, QUERY_ID_JSON)
 
-    # build_output_json(
-    #     query_id_json=QUERY_ID_JSON,
-    #     meta_path=METADATA_JSON,
-    #     faiss_path=FAISS_INDEX,
-    #     output_json=OUTPUT_RETRIEVAL_JSON
-    # )
+    build_output_json(
+        query_id_json=QUERY_ID_JSON,
+        meta_path=METADATA_JSON,
+        faiss_path=FAISS_INDEX,
+        output_json=OUTPUT_RETRIEVAL_JSON
+    )
 
-    build_output_json_dense_sparse(
-    query_id_json=QUERY_ID_JSON,
-    meta_path=METADATA_JSON,
-    faiss_path=FAISS_INDEX,
-    output_json=OUTPUT_RETRIEVAL_JSON,
-    topk=64,
-    alpha=0.8  # tune fusion weight if needed
-)
+#     build_output_json_dense_sparse(
+#     query_id_json=QUERY_ID_JSON,
+#     meta_path=METADATA_JSON,
+#     faiss_path=FAISS_INDEX,
+#     output_json=OUTPUT_RETRIEVAL_JSON,
+#     topk=64,
+#     alpha=0.8  # tune fusion weight if needed
+# )
