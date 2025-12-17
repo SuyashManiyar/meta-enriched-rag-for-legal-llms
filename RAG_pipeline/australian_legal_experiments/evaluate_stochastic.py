@@ -14,10 +14,16 @@ import os
 OUTPUT_DIR = "australian_legal_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-GROUND_TRUTH_JSON = "Final_test_ground_truth_146.json"  # Our ground truth with spans
-RETRIEVAL_JSON = os.path.join(OUTPUT_DIR, "australian_legal_retrieval_results_dense_sparse.json")  # Dense+Sparse results
-CHUNK_TEXT_JSON = "australian_legal_text_recursive_chunking.json"  # Chunks with text
-OUTPUT_JSON = os.path.join(OUTPUT_DIR, "australian_legal_evaluation_dense_sparse_stochastic_results.json")  # Output results
+# Baseline (Recursive) Dense+Sparse
+GROUND_TRUTH_JSON = "australian_legal_data/aus_test_qa_corrected.json"  # Corrected ground truth
+BASELINE_RETRIEVAL_JSON = "australian_legal_data/results_recursive/australian_legal_retrieval_results_recursive_dense_sparse.json"  # Baseline Dense+Sparse
+BASELINE_CHUNK_TEXT_JSON = "australian_legal_data/generated_chunks/australian_legal_text_recursive_chunking.json"  # Baseline chunks
+BASELINE_OUTPUT_JSON = "australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_sparse_stochastic_results.json"
+
+# Enhanced (Meta-Recursive) Dense+Sparse  
+ENHANCED_RETRIEVAL_JSON = "australian_legal_data/results_meta_recursive/australian_legal_retrieval_results_meta_recursive_dense_sparse.json"  # Enhanced Dense+Sparse
+ENHANCED_CHUNK_TEXT_JSON = "australian_legal_data/generated_chunks/australian_legal_text_meta_recursive_chunking.json"  # Enhanced chunks
+ENHANCED_OUTPUT_JSON = "australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_sparse_stochastic_results.json"
 
 # ============================================================
 
@@ -155,12 +161,15 @@ def evaluate_query(qtext, gt_snippets, retrieved_chunks, chunk_text_map):
         span_correct_flags.append(span_match)
 
         # ---- Alt word correctness ----
-        chunk_text = chunk_text_map[r_chunk_id]["chunk_text"]
         alt_match = False
-        for gt_text in gt_answer_texts:
-            if word_overlap_sim(gt_text, chunk_text) == 1:
-                alt_match = True
-                break
+        if r_chunk_id in chunk_text_map:
+            chunk_text = chunk_text_map[r_chunk_id]["chunk_text"]
+            for gt_text in gt_answer_texts:
+                if word_overlap_sim(gt_text, chunk_text) == 1:
+                    alt_match = True
+                    break
+        else:
+            print(f"Warning: Chunk ID {r_chunk_id} not found in chunk text map")
         word_correct_flags.append(alt_match)
 
     # ============================================================
@@ -206,12 +215,12 @@ def evaluate_query(qtext, gt_snippets, retrieved_chunks, chunk_text_map):
 # MAIN PIPELINE
 # ============================================================
 
-def main():
-    gt_raw = load_json(GROUND_TRUTH_JSON)
-    ret_raw = load_json(RETRIEVAL_JSON)
-    chunk_text_map = load_json(CHUNK_TEXT_JSON)
-
-    gt_index = index_ground_truth(gt_raw)
+def evaluate_approach(approach_name, retrieval_json, chunk_text_json, output_json, gt_index):
+    """Evaluate a single approach (baseline or enhanced)"""
+    print(f"\nEvaluating {approach_name} approach...")
+    
+    ret_raw = load_json(retrieval_json)
+    chunk_text_map = load_json(chunk_text_json)
 
     per_query_results = {}
     all_query_metrics = [] # Store all for sampling
@@ -327,14 +336,50 @@ def main():
     }
 
     output = {
+        "evaluation_name": f"{approach_name.lower()}_dense_sparse_stochastic",
         "per_query": per_query_results,
-        "bootstrap_macros": bootstrap_results, # New Structure
+        "bootstrap_macros": bootstrap_results,
         "k_values": K_VALUES,
         "cases": case_stats
     }
 
-    Path(OUTPUT_JSON).write_text(json.dumps(output, indent=2))
-    print(f"Saved results to {OUTPUT_JSON}")
+    Path(output_json).write_text(json.dumps(output, indent=2))
+    print(f"Saved {approach_name} results to {output_json}")
+    
+    return output
+
+def main():
+    # Load ground truth once
+    gt_raw = load_json(GROUND_TRUTH_JSON)
+    gt_index = index_ground_truth(gt_raw)
+    
+    print("Starting stochastic evaluation for both approaches...")
+    
+    # Evaluate baseline approach
+    baseline_results = evaluate_approach(
+        "Baseline", 
+        BASELINE_RETRIEVAL_JSON, 
+        BASELINE_CHUNK_TEXT_JSON, 
+        BASELINE_OUTPUT_JSON, 
+        gt_index
+    )
+    
+    # Evaluate enhanced approach
+    enhanced_results = evaluate_approach(
+        "Enhanced", 
+        ENHANCED_RETRIEVAL_JSON, 
+        ENHANCED_CHUNK_TEXT_JSON, 
+        ENHANCED_OUTPUT_JSON, 
+        gt_index
+    )
+    
+    print("\n" + "="*60)
+    print("STOCHASTIC EVALUATION COMPLETE!")
+    print("="*60)
+    print("Files generated:")
+    print(f"- {BASELINE_OUTPUT_JSON}")
+    print(f"- {ENHANCED_OUTPUT_JSON}")
+    print("\nBoth baseline and enhanced approaches evaluated with dense+sparse retrieval.")
 
 if __name__ == "__main__":
     main()
