@@ -6,18 +6,18 @@ import random
 import statistics
 
 # ============================================================
-# INPUT PATHS
+# INPUT PATHS - AUSTRALIAN LEGAL DATA
 # ============================================================
 
-# GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_w_query_ids.json"
-# RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_inference/retrieval_results_recur_dense_window_metadata_n_doc_name_corrected.json"
-# CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_chunks/chunks_window_summary_n_doc_name.json"
-# OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/maud_subset_evals/eval_recur_dense_w_window_metadata_n_doc_name_stoch.json"
+# Create output directory
+import os
+OUTPUT_DIR = "australian_legal_data"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-GROUND_TRUTH_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_w_query_ids.json"
-RETRIEVAL_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_inference/retrieval_results_recur_dense_w_window_metadata_n_doc_name.json"
-CHUNK_TEXT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_chunks/chunks_window_summary_n_doc_name.json"
-OUTPUT_JSON = "/home/sunjaekwon_umass_edu/UMASS/deepali/cs685/project/RAG_data/privacy_qa_evals/eval_recur_dense_w_window_metadata_n_doc_name_stoch.json"
+GROUND_TRUTH_JSON = "Final_test_ground_truth_146.json"  # Our ground truth with spans
+RETRIEVAL_JSON = os.path.join(OUTPUT_DIR, "australian_legal_retrieval_results_dense_sparse.json")  # Dense+Sparse results
+CHUNK_TEXT_JSON = "australian_legal_text_recursive_chunking.json"  # Chunks with text
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "australian_legal_evaluation_dense_sparse_stochastic_results.json")  # Output results
 
 # ============================================================
 
@@ -28,7 +28,7 @@ K_VALUES = [1, 2, 4, 8, 16, 32, 64]
 # ============================================================
 
 def load_json(path):
-    return json.loads(Path(path).read_text())
+    return json.loads(Path(path).read_text(encoding='utf-8'))
 
 def spans_overlap(span1, span2):
     a1, a2 = span1
@@ -75,20 +75,50 @@ def word_overlap_sim(gt_text, chunk_text, threshold=0.75):
 # ============================================================
 
 def index_ground_truth(gt_raw):
+    """
+    Index ground truth for Australian legal data format.
+    Expected format: {qa_id: {question, answer, citation, span, document_path}}
+    """
     lookup = {}
-    if isinstance(gt_raw, list):
-        items = gt_raw
-    elif isinstance(gt_raw, dict):
-        items = gt_raw.values()
+    
+    if isinstance(gt_raw, dict):
+        # Australian legal format: direct dict of QA pairs
+        for qa_id, qa_data in gt_raw.items():
+            question = qa_data.get("question", "")
+            answer = qa_data.get("answer", "")
+            span = qa_data.get("span", [])
+            doc_path = qa_data.get("document_path", "")
+            
+            # Extract document ID from document path for matching
+            # Format: australian_legal_documents_final\001_judgments.fedcourt.gov.au...
+            doc_id = None
+            if doc_path:
+                # Extract the document number (001, 003, etc.)
+                import re
+                match = re.search(r'\\(\d+)_', doc_path) or re.search(r'/(\d+)_', doc_path)
+                if match:
+                    doc_id = match.group(1)
+            
+            lookup[question] = [{
+                "file_path": doc_id,  # Use document ID for matching
+                "span": span,
+                "answer": answer,
+                "document_path": doc_path
+            }]
     else:
-        raise ValueError("Ground truth JSON must be list or dict")
-
-    for item in items:
-        q = item["query"]
-        lookup[q] = [
-            {"file_path": s["file_path"], "span": s["span"], "answer": s.get("answer", "")}
-            for s in item["snippets"]
-        ]
+        # Old format compatibility
+        if isinstance(gt_raw, list):
+            items = gt_raw
+        else:
+            items = gt_raw.values()
+            
+        for item in items:
+            q = item["query"]
+            lookup[q] = [
+                {"file_path": s["file_path"], "span": s["span"], "answer": s.get("answer", "")}
+                for s in item["snippets"]
+            ]
+    
     return lookup
 
 # ============================================================

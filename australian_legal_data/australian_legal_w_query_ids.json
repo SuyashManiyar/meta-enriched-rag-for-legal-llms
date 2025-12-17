@@ -1,0 +1,1024 @@
+{
+  "query_id_1": {
+    "query": "Who did Mr Thurlow send his email to, according to the decision in Austal Ships Pty Ltd (ACN 079 160 679) v Thurlow [2006] FCA 1219?",
+    "doc_id": "001",
+    "original_qa_id": "001",
+    "citation": "Austal Ships Pty Ltd (ACN 079 160 679) v Thurlow [2006] FCA 1219",
+    "answer": "In the decision of Austal Ships Pty Ltd (ACN 079 160 679) v Thurlow [2006] FCA 1219, it was revealed that Mr Thurlow's email was sent to Mr Tom Bringsvaerd and Mr Bernt Mykjaland, who are principals of a Norwegian registered and domiciled company known as Master Ferries Holding AS (Master Ferries)."
+  },
+  "query_id_2": {
+    "query": "What was the purpose of the loan raised by BHP as stated in the Commissioner of Taxation v Broken Hill Pty Company Ltd [2000] FCA 1431 case?",
+    "doc_id": "003",
+    "original_qa_id": "003",
+    "citation": "Commissioner of Taxation v Broken Hill Pty Company Ltd [2000] FCA 1431",
+    "answer": "In the case of Commissioner of Taxation v Broken Hill Pty Company Ltd [2000] FCA 1431, the purpose of the loan raised by BHP was for the purchase of the UI, UMC and UDC shares by an Australian entity (BHP). This was considered a qualifying use for purposes of Division 11A."
+  },
+  "query_id_3": {
+    "query": "What was the financial situation of the Mowen Group as described in the case Waldon v Mowen Margaret River Estate Pty Ltd [2003] FCA 871?",
+    "doc_id": "005",
+    "original_qa_id": "005",
+    "citation": "Waldon v Mowen Margaret River Estate Pty Ltd [2003] FCA 871",
+    "answer": "In the case Waldon v Mowen Margaret River Estate Pty Ltd [2003] FCA 871, it was accepted that the Mowen Group's liquidity position had become significantly affected. The group had incurred substantial costs in operating a vineyard and was entitled to reimbursement. Non-payment of management fees further affected this position. The produce of the 2002 and 2003 vintages had been lodged with Harmans Ridge Winery, which had a claim of $131,000. As a result, the Mowen Group suffered significant cash flow distress. Furthermore, the debt secured over the Mowen vineyard was in the vicinity of $410,000, but the maximum secured under the mortgage appeared to be $600,000. The land was also subject to a caveat in favour of Tropical."
+  },
+  "query_id_4": {
+    "query": "In the case of IC Pipes Pty Limited v DGS Trading Pty Limited [2022] NSWSC 951, what was the court's decision regarding Mr Blanch's request for disclosure of certain material?",
+    "doc_id": "006",
+    "original_qa_id": "006",
+    "citation": "IC Pipes Pty Limited v DGS Trading Pty Limited [2022] NSWSC 951",
+    "answer": "In IC Pipes Pty Limited v DGS Trading Pty Limited [2022] NSWSC 951, the court decided that Mr Blanch and his company were not entitled to the material they sought. The court held that Mr Blanch had not demonstrated any exceptional circumstances that would warrant disclosure before the pleadings had closed and the evidence was otherwise on. Furthermore, the court found that the categories of material Mr Blanch sought did not appear to be relevant to a fact in issue. However, the court also noted that Mr Blanch could make a further application for the material if he could demonstrate a proper basis for being entitled to it once the pleadings have closed and all the evidence has been put on."
+  },
+  "query_id_5": {
+    "query": "Under the Australian Waste Lands Act 1855 (Qld), is it lawful for the legislature of any colony to amend or repeal orders in council made under the authority of the said Act?",
+    "doc_id": "007",
+    "original_qa_id": "007",
+    "citation": "Australian Waste Lands Act 1855 (Qld)",
+    "answer": "Yes, under the Australian Waste Lands Act 1855 (Qld), it is lawful for the legislature of any colony in which the repeal of the said Act of the tenth year of Her Majesty shall have taken effect to repeal, alter, or amend any order in council made under authority of the said Act, and affecting such colony. However, this is subject to the provisions in the said Acts of this session for the preservation and enabling the fulfilment of contracts, promises, and engagements made by or on behalf of Her Majesty with respect to lands situated in such respective colonies."
+  },
+  "query_id_6": {
+    "query": "What was the nature of the suppression order issued by the magistrate in the case of Director of Public Prosecutions (NSW) v Izod; Director of Public Prosecutions (NSW) v Zreika [2020] NSWSC 381?",
+    "doc_id": "008",
+    "original_qa_id": "008",
+    "citation": "Director of Public Prosecutions (NSW) v Izod; Director of Public Prosecutions (NSW) v Zreika [2020] NSWSC 381",
+    "answer": "In the case of Director of Public Prosecutions (NSW) v Izod; Director of Public Prosecutions (NSW) v Zreika [2020] NSWSC 381, the magistrate issued a suppression order pursuant to the Court Suppression and Non-Publication Orders Act 2010 (NSW) on 29 May 2019. The order prohibited the publication in New South Wales of certain information, specifically all communications between the defendants. This included telephone conversations and SMS messages that were lawfully intercepted under a warrant issued under the Telecommunications (Interception of Access) Act 1979 (Cth) on 28 June 2018. The suppression order was to remain in effect until the court ordered otherwise."
+  },
+  "query_id_7": {
+    "query": "In the case of SZHVX v Minister for Immigration & Citizenship [2007] FCA 1272, how did the Federal Magistrates Court respond to the applicant's claim that the Tribunal failed to properly apply the \"real chance\" test?",
+    "doc_id": "010",
+    "original_qa_id": "010",
+    "citation": "SZHVX v Minister for Immigration & Citizenship [2007] FCA 1272",
+    "answer": "In SZHVX v Minister for Immigration & Citizenship [2007] FCA 1272, the Federal Magistrates Court addressed each of the grounds advanced by the applicant. Regarding the claim that the Tribunal failed to properly apply the \"real chance\" test, the Magistrate held that the Tribunal's findings on the matter of credibility were not based on inconsistencies between what the applicant said at the hearing and what had been contained in his protection visa application, or was otherwise on the departmental file. The factors which caused the Tribunal to take an adverse view of the applicant\u2019s credibility were based upon information given to the Tribunal by the applicant for the purposes of the review which it was conducting and, therefore, were excluded by the operation of s 424A(3)(b) of the Act."
+  },
+  "query_id_8": {
+    "query": "What are some of the factors related to the onset of chronic myeloid leukaemia as outlined in the Statement of Principles concerning chronic myeloid leukaemia (Reasonable Hypothesis) (No. 57 of 2023) (Cth)?",
+    "doc_id": "011",
+    "original_qa_id": "011",
+    "citation": "Statement of Principles concerning chronic myeloid leukaemia (Reasonable Hypothesis) (No. 57 of 2023) (Cth)",
+    "answer": "The Statement of Principles concerning chronic myeloid leukaemia (Reasonable Hypothesis) (No. 57 of 2023) (Cth) outlines several factors related to the onset of chronic myeloid leukaemia. These include exposure to benzene within a certain period and at a certain level, having received a kidney transplant before the clinical onset of the disease, and inability to obtain appropriate clinical management for chronic myeloid leukaemia. The document also specifies that the existence of any of these factors must be related to the relevant service rendered by the person, and that the factor of inability to obtain appropriate clinical management applies only to material contribution to, or aggravation of, the disease where the person's chronic myeloid leukaemia was suffered or contracted before or during (but did not arise out of) the person's relevant service."
+  },
+  "query_id_9": {
+    "query": "What was the outcome of the appeal case Suncorp Metway Insurance Limited v Scarf [2003] NSWCA 185 in the Supreme Court of New South Wales?",
+    "doc_id": "012",
+    "original_qa_id": "012",
+    "citation": "Suncorp Metway Insurance Limited v Scarf [2003] NSWCA 185",
+    "answer": "In the appeal case Suncorp Metway Insurance Limited v Charles Alexander Scarf [2003] NSWCA 185, the court upheld a decision by Boyd Boland ADCJ, awarding Charles Alexander Scarf $224,527 in respect of the total destruction of his 1999 Porsche Carrera motor vehicle in an accident. Suncorp Metway Insurance Limited had insured Scarf against loss or damage to that vehicle."
+  },
+  "query_id_10": {
+    "query": "What are the specific expenses that the plaintiffs in the case of Lakatoi Universal Pty Ltd v L.A. Walker; Ensile Pty Ltd v Walker Consolidated Investments [2000] NSWSC 431 claim do not fall under the \"Walker Expenses\" secured by Mortgage M376 673 to Walker Consolidated?",
+    "doc_id": "013",
+    "original_qa_id": "013",
+    "citation": "Lakatoi Universal Pty Ltd v L.A. Walker; Ensile Pty Ltd v Walker Consolidated Investments [2000] NSWSC 431",
+    "answer": "In the case of Lakatoi Universal Pty Ltd v L.A. Walker; Ensile Pty Ltd v Walker Consolidated Investments [2000] NSWSC 431, the plaintiffs claim that the \"Walker Expenses\" secured by Mortgage M376 673 to Walker Consolidated do not include the following: the Initial Contribution of $2,750,000; any sums charged as project management fees; the political donations totalling $220,000; the sum of $302,000 paid to Walker Civil Engineering; any sums paid to obtain the options to purchase the Thompson land; and the sums of $17,686 paid to Security Warehouse and $5,170 paid to Direct Alarms."
+  },
+  "query_id_11": {
+    "query": "In the case of R v Alexander CITTADINI [2008] NSWCCA 256, what was the court's view on the distinction between the construction of the yacht and the supervision of its construction?",
+    "doc_id": "015",
+    "original_qa_id": "015",
+    "citation": "R v Alexander CITTADINI [2008] NSWCCA 256",
+    "answer": "In R v Alexander CITTADINI [2008] NSWCCA 256, the court found no relevant distinction between the construction of the yacht and the supervision of its construction. It was stated that once it is accepted that negligence in respect of the construction of the yacht generally could only support an inference of negligence in relation to the keel by a process of tendency reasoning, the same may be said in respect of supervision. The court also clarified that the implementation of a proper system is not synonymous with supervision."
+  },
+  "query_id_12": {
+    "query": "Who was appointed as a part-time member of the Auditing and Assurance Standards Board under the Australian Securities and Investments Commission Act 2001 (the Act) in 2021?",
+    "doc_id": "016",
+    "original_qa_id": "016",
+    "citation": "Australian Securities and Investments Commission (Auditing and Assurance Standards Board\u2014Part-time Member) Appointment (No. 1) 2021 (Cth)",
+    "answer": "Michelle Shafizadeh was appointed as a part-time member of the Auditing and Assurance Standards Board from 1 July 2021 until 31 December 2023, as per the Australian Securities and Investments Commission (Auditing and Assurance Standards Board\u2014Part-time Member) Appointment (No. 1) 2021. This appointment was made by the Financial Reporting Council under subsection 236F(2) of the Australian Securities and Investments Commission Act 2001."
+  },
+  "query_id_13": {
+    "query": "What action does the Airworthiness Directive (AD) AD/CESSNA 400/116 require for Cessna 400 Series Aeroplanes under subregulation 39.001(1) of CASR 1998?",
+    "doc_id": "018",
+    "original_qa_id": "018",
+    "citation": "AD/CESSNA 400/116 - Dual Battery Switch (Cth)",
+    "answer": "The Airworthiness Directive (AD) AD/CESSNA 400/116, issued under subregulation 39.001(1) of CASR 1998, requires that the action set out in the requirement section be taken in relation to the aircraft or aeronautical product mentioned in the applicability section. This action, which the delegate considers necessary to correct the unsafe condition, must be taken: (a) in the circumstances mentioned in the requirement section; (b) in accordance with the instructions set out in the requirement section; and (c) at the time mentioned in the compliance section."
+  },
+  "query_id_14": {
+    "query": "In the case of Keys v Royal & Sun Alliance Insurance [2000] NSWSC 1122, why was there a delay in joining Coopers and Lybrand as parties to the proceedings?",
+    "doc_id": "020",
+    "original_qa_id": "020",
+    "citation": "Keys v Royal & Sun Alliance Insurance [2000] NSWSC 1122",
+    "answer": "In Keys v Royal & Sun Alliance Insurance [2000] NSWSC 1122, the delay in joining Coopers and Lybrand as parties to the proceedings was attributed to ongoing without prejudice discussions aimed at settling the matter. These discussions, which lasted for about seven weeks ending on 10 April 2000, involved Royal and Sun Alliance but did not include Coopers and Lybrand. However, the period between the filing of the defence in the Queensland action and the start of negotiations with Royal and Sun Alliance was not insignificant and remained unexplained. Furthermore, it was not clarified why Coopers and Lybrand were not joined at the time the defence was filed."
+  },
+  "query_id_15": {
+    "query": "What were some of the stressful events that the prisoner in R v BUTCHER [2000] NSWSC 92 experienced before the events of the case?",
+    "doc_id": "021",
+    "original_qa_id": "021",
+    "citation": "R v BUTCHER [2000] NSWSC 92",
+    "answer": "In R v BUTCHER [2000] NSWSC 92, the prisoner experienced several stressful events before the events of the case. He had been living in the United States for about fifteen years when, in 1994, his mother became terminally ill. He and his wife moved to Australia to care for her. In 1997, they bought a house on the Central Coast which was destroyed by fire within a couple of weeks of their moving in, resulting in significant loss. The prisoner's mother had a bad accident and remained in hospital until her death in January 1998. After his return to Australia, the prisoner established an importing business, which did not do well. These circumstances, along with the loss of his house and difficulties with his business, pressed heavily upon him."
+  },
+  "query_id_16": {
+    "query": "What were the factors considered by the judge in the case of Budin v Regina [2006] NSWCCA 393 in New South Wales when determining the sentence for the applicant?",
+    "doc_id": "022",
+    "original_qa_id": "022",
+    "citation": "Budin v Regina [2006] NSWCCA 393",
+    "answer": "In the case of Budin v Regina [2006] NSWCCA 393, the judge considered several factors when determining the sentence for the applicant. These included the applicant's reasonable prospects of rehabilitation, the applicant's ill health, particularly the Paget\u2019s disease, which was likely to cause deterioration, and the fact that the applicant had not previously served a prison sentence. The judge also took into account the nature of the offence, the quantity of drug involved, the applicant\u2019s role in the crime, the applicant's cooperation with police, and the applicant\u2019s effectively clear record. The judge concluded that, but for the plea of guilty, an appropriate sentence would have been of a total term of six years, and discounted that by the 25% he had foreshadowed."
+  },
+  "query_id_17": {
+    "query": "In the case of Eddaglide Pty Ltd v Taubert [2000] NSWSC 1123, what was the issue with the judgments obtained?",
+    "doc_id": "023",
+    "original_qa_id": "023",
+    "citation": "Eddaglide Pty Ltd v Taubert [2000] NSWSC 1123",
+    "answer": "In the case of Eddaglide Pty Ltd v Taubert [2000] NSWSC 1123, the judgments were obtained on the basis of a flawed calculation or flawed material. The liquidator had stated that there was no agreement for the reimbursement of expenses, despite evidence to the contrary. Furthermore, while an allowance of some $210,000 was acknowledged to have been properly used by the defendants, it was unclear what this amount contained and whether the error in the liquidator's statements had been corrected when the amounts for which judgment was obtained were laid before the Master."
+  },
+  "query_id_18": {
+    "query": "Under the Commercial Arbitration Act 2010 (NSW), what are the conditions for an appeal to the Court on a question of law arising out of an award?",
+    "doc_id": "025",
+    "original_qa_id": "025",
+    "citation": "Ashjal Pty Ltd -v- Elders Toepfer Grain Pty Ltd [2012] NSWSC 545",
+    "answer": "Under the Commercial Arbitration Act 2010 (NSW), an appeal lies to the Court on a question of law arising out of an award if (a) the parties agree, before the end of the appeal period, that an appeal may be made under the section, and (b) the Court grants leave. The appeal period is defined as three months from the date on which the party making the appeal receives the award or, if a request had been made under s 33, from the date on which that request had been disposed of by the arbitral tribunal. This was discussed in the case of Ashjal Pty Ltd -v- Elders Toepfer Grain Pty Ltd [2012] NSWSC 545."
+  },
+  "query_id_19": {
+    "query": "What are the jurisdictional requirements under the Act for an owner of land to apply to the Court for an order to remedy, restrain or prevent damage to property on the land, or to prevent injury to any person, as a consequence of a tree situated on adjoining land, as per the decision in Bogan v Serrao [2023] NSWLEC 1517?",
+    "doc_id": "028",
+    "original_qa_id": "028",
+    "citation": "Bogan v Serrao [2023] NSWLEC 1517",
+    "answer": "In the decision of Bogan v Serrao [2023] NSWLEC 1517, the jurisdictional requirements under the Act for an owner of land to apply to the Court for an order to remedy, restrain or prevent damage to property on the land, or to prevent injury to any person, as a consequence of a tree situated on adjoining land are as follows: firstly, the applicants must provide notice of the application to the respondents and Council as per s 8(1)(a) of the Act. Secondly, the applicants must make a reasonable effort to reach agreement with the owners of the land on which the trees are situated, as per s 10(1)(a) of the Act."
+  },
+  "query_id_20": {
+    "query": "What are the new dates for the amendments in table items 11.2.11 and 12.2.5 as per the Treasury Laws Amendment (2022 Measures No. 5) Act 2023 (Cth)?",
+    "doc_id": "029",
+    "original_qa_id": "029",
+    "citation": "Treasury Laws Amendment (2022 Measures No. 5) Act 2023 (Cth)",
+    "answer": "According to the Treasury Laws Amendment (2022 Measures No. 5) Act 2023 (Cth), the new date for table item 11.2.11 is 9 March 2028, replacing the previous date of 9 March 2023. For table item 12.2.5, the new date is 1 July 2024, substituting the old date of 1 July 2022."
+  },
+  "query_id_21": {
+    "query": "What was the outcome of the case Mazukov v Human Rights & Equal Opportunity Commission [2000] FCA 1534 in the Federal Court of Australia?",
+    "doc_id": "030",
+    "original_qa_id": "030",
+    "citation": "Mazukov v Human Rights & Equal Opportunity Commission [2000] FCA 1534",
+    "answer": "In the case of Mazukov v Human Rights & Equal Opportunity Commission [2000] FCA 1534, the Federal Court of Australia ordered that the application was dismissed and the applicant, Ivan Antonov Mazukov, was to pay the respondent's, Human Rights and Equal Opportunity Commission, costs to be taxed."
+  },
+  "query_id_22": {
+    "query": "Who made the Superannuation (CSS) Productivity Contribution (2000\u20132001) Declaration under the Superannuation Act 1976?",
+    "doc_id": "031",
+    "original_qa_id": "031",
+    "citation": "Superannuation (CSS) Productivity Contribution (2000-2001) Declaration (Cth)",
+    "answer": "The Superannuation (CSS) Productivity Contribution (2000\u20132001) Declaration under the Superannuation Act 1976 was made by Sandra Kay Wilson, the Assistant Secretary of the Commonwealth Superannuation Group, Department of Finance and Administration, who was a delegate of the Commonwealth Minister for Finance and Administration."
+  },
+  "query_id_23": {
+    "query": "What is the nature of the connection between the Nukunu People and the land, as described in the case of Turner on behalf of the Nukunu People v State of South Australia [2019] FCA 863?",
+    "doc_id": "032",
+    "original_qa_id": "032",
+    "citation": "Turner on behalf of the Nukunu People v State of South Australia [2019] FCA 863",
+    "answer": "In the case of Turner on behalf of the Nukunu People v State of South Australia [2019] FCA 863, it was found that the Nukunu People have a continued connection with the land. This connection includes travelling over and monitoring the land, visiting and camping, hunting and fishing, gathering natural resources and conducting smoking ceremonies. The evidence of connection also includes the telling and teaching of land related dreaming stories relating to the Wapma, the eaglehawk and crow, two wild dogs, the eagle and kangaroo. This ongoing connection especially arises in the areas around Baroota and Port Germein, through to the eastern side of Mount Remarkable and the Willochra Plain."
+  },
+  "query_id_24": {
+    "query": "What was the outcome of the cost assessment in the case of Gilles & Eliades v Giakoumelos [2008] NSWSC 70?",
+    "doc_id": "034",
+    "original_qa_id": "034",
+    "citation": "Gilles & Eliades v Giakoumelos [2008] NSWSC 70",
+    "answer": "In the case of Gilles & Eliades v Giakoumelos [2008] NSWSC 70, the cost assessor completed the assessment and issued his certificate of determination. One of the consequences of that determination was a disallowance of part of the fees charged by senior counsel in the sum of $52,360."
+  },
+  "query_id_25": {
+    "query": "Under the Administrative Appeals Tribunal Act 1975 (Cth), what power does the Court have in relation to the decision of the Tribunal?",
+    "doc_id": "036",
+    "original_qa_id": "036",
+    "citation": "Broadbent v Civil Aviation Safety Authority [1999] FCA 1871",
+    "answer": "Under section 44A of the Administrative Appeals Tribunal Act 1975 (Cth), the Court has the power to stay either the decision of the Tribunal, or the decision in respect of which the Tribunal hearing was held, if the Court is of the view that it is appropriate for the purpose of securing the effectiveness of the hearing and determination of the appeal. This was applied in the case of Broadbent v Civil Aviation Safety Authority [1999] FCA 1871."
+  },
+  "query_id_26": {
+    "query": "What was the outcome of the case Kerr v American Express Australia Limited [2010] FCA 146 in the Federal Court of Australia?",
+    "doc_id": "037",
+    "original_qa_id": "037",
+    "citation": "Kerr v American Express Australia Limited [2010] FCA 146",
+    "answer": "In the case of Kerr v American Express Australia Limited [2010] FCA 146, the Federal Court of Australia ordered that the appellant\u2019s notice of motion filed on 1 February 2010 be dismissed."
+  },
+  "query_id_27": {
+    "query": "In the case of Abel v Minister for Immigration & Multicultural Affairs [2001] FCA 1010, why was the applicant visited by the security forces?",
+    "doc_id": "038",
+    "original_qa_id": "038",
+    "citation": "Abel v Minister for Immigration & Multicultural Affairs [2001] FCA 1010",
+    "answer": "In the case of Abel v Minister for Immigration & Multicultural Affairs [2001] FCA 1010, the applicant was visited by the security forces in relation to a bombing that had occurred at a train station in Colombo. The security checks were undertaken in residential areas after the bombing, and the area in which the applicant lived was checked around September 1996."
+  },
+  "query_id_28": {
+    "query": "What was the issue that Peak Performance PM raised in their appeal against PM Works Pty Ltd in the case of Management Services Australia Pty Ltd trading as Peak Performance PM v PM Works Pty Ltd [2019] NSWCA 107?",
+    "doc_id": "039",
+    "original_qa_id": "039",
+    "citation": "Management Services Australia Pty Ltd trading as Peak Performance PM v PM Works Pty Ltd [2019] NSWCA 107",
+    "answer": "In the case of Management Services Australia Pty Ltd trading as Peak Performance PM v PM Works Pty Ltd [2019] NSWCA 107, Peak Performance PM raised the issue that the court had erred by failing to find that PM Works' conduct on 17 February 2015, or alternatively 13 April 2015, constituted a repudiation of the variation agreement, which Peak Performance elected to accept. They also claimed that the court erred by failing to find that Peak Performance was entitled to damages for breach (up until the date of repudiation), and anticipatory breach thereafter, of the variation agreement."
+  },
+  "query_id_29": {
+    "query": "What was the reason given by the editorial committee of the Journal for not publishing the plaintiff's submission in the case of Gorman v Australasian Medical Publishing Company Pty Ltd [2002] NSWSC 701?",
+    "doc_id": "040",
+    "original_qa_id": "040",
+    "citation": "Gorman v Australasian Medical Publishing Company Pty Ltd [2002] NSWSC 701",
+    "answer": "In the case of Gorman v Australasian Medical Publishing Company Pty Ltd [2002] NSWSC 701, the editorial committee of the Journal declined to publish the plaintiff's submission due to the comments of an expert reviewer. The reviewer stated that there was no plausible mechanism by which spinal manipulation could be beneficial for the varied types of visual field defect mentioned in the letter. Furthermore, the reviewer noted that all treatments can be tested in randomised clinical trials, which the authors had failed to do for spinal manipulation for visual field loss."
+  },
+  "query_id_30": {
+    "query": "Who filed an application to vary the Racecourse Totalisators (State) Award in the Industrial Relations Commission of New South Wales in 2004?",
+    "doc_id": "041",
+    "original_qa_id": "041",
+    "citation": "Racecourse Totalisators (State) Award [2004] NSWIRComm 315",
+    "answer": "The New South Wales Local Government, Clerical, Administrative, Energy, Airlines & Utilities Union filed an application to vary the Racecourse Totalisators (State) Award in the Industrial Relations Commission of New South Wales in 2004, as per the decision in Racecourse Totalisators (State) Award [2004] NSWIRComm 315."
+  },
+  "query_id_31": {
+    "query": "What types of radio broadcasting services are to be available in the Murwillumbah area of NSW, according to the Licence Area Plan - Murwillumbah Radio - December 2000 (Cth)?",
+    "doc_id": "042",
+    "original_qa_id": "042",
+    "citation": "Licence Area Plan - Murwillumbah Radio - December 2000 (Cth)",
+    "answer": "According to the Licence Area Plan - Murwillumbah Radio - December 2000 (Cth), one national radio broadcasting service, one commercial radio broadcasting service, one open narrowcasting radio service, and one community radio broadcasting service are to be available in the Murwillumbah area of NSW."
+  },
+  "query_id_32": {
+    "query": "In the case of R v Al Batat & Ors (No 3) [2020] NSWSC 1061, what was the Prosecutor's argument regarding the possession of firearms on 14 February and its relation to the likelihood of supplying firearms on 1 February?",
+    "doc_id": "043",
+    "original_qa_id": "043",
+    "citation": "R v Al Batat & Ors (No 3) [2020] NSWSC 1061",
+    "answer": "In R v Al Batat & Ors (No 3) [2020] NSWSC 1061, the Prosecutor argued that a person's possession of firearms on 14 February is capable of rationally affecting the question of whether they were in a position to supply firearms on 1 February. The Prosecutor further stated that possession of guns on 14 February makes it more likely that a person was in a position to supply guns on 1 February, and therefore makes it more likely in fact they did supply guns on 1 February."
+  },
+  "query_id_33": {
+    "query": "What were the findings of the Tribunal in the case BWC15 v Minister for Immigration and Border Protection [2017] FCA 199 regarding the appellant's risk of being caught in a bomb blast, being kidnapped, and experiencing abuse and discrimination at work?",
+    "doc_id": "044",
+    "original_qa_id": "044",
+    "citation": "BWC15 v Minister for Immigration and Border Protection [2017] FCA 199",
+    "answer": "In the case BWC15 v Minister for Immigration and Border Protection [2017] FCA 199, the Tribunal found that there was a very small risk of the appellant being caught in a bomb blast in Shi'a areas of Beirut, given the small number of bombings and casualties relative to the population. The Tribunal also found that the appellant would not be targeted for kidnapping simply because of his Shi'a faith or his support for those fighting IS, as there was no country information to suggest that Shi'a Lebanese civilians were targeted for kidnapping or that supporting those fighting IS would make him a target. Furthermore, the Tribunal did not accept that the appellant had experienced abuse and discrimination at work based on the country information. As a result of these findings, the Tribunal was not satisfied that the appellant met the criteria for the grant of the visa and affirmed the decision not to grant the appellant a visa."
+  },
+  "query_id_34": {
+    "query": "Under the Health Insurance Amendment (Prescribed Dental Patients and Other Measures) Act 2023 (Cth), who is authorised to use computer programs to manage the Register of Approved Placements?",
+    "doc_id": "045",
+    "original_qa_id": "045",
+    "citation": "Health Insurance Amendment (Prescribed Dental Patients and Other Measures) Act 2023 (Cth)",
+    "answer": "Under the Health Insurance Amendment (Prescribed Dental Patients and Other Measures) Act 2023 (Cth), the Chief Executive Medicare may arrange for the use of computer programs to manage the Register of Approved Placements."
+  },
+  "query_id_35": {
+    "query": "In the case of WorkCover Authority of New South Wales (Inspector Pompili) v Central Sydney Area Health Service [2002] NSWIRComm 44, what was the argument presented by Mr Inatey SC for the defendant regarding the construction of s51A?",
+    "doc_id": "048",
+    "original_qa_id": "048",
+    "citation": "WorkCover Authority of New South Wales (Inspector Pompili) v Central Sydney Area Health Service [2002] NSWIRComm 44",
+    "answer": "In the case of WorkCover Authority of New South Wales (Inspector Pompili) v Central Sydney Area Health Service [2002] NSWIRComm 44, Mr Inatey SC, for the defendant, supported the prosecution's constructions of s51A. He also pointed to the practical consequences of the competing constructions in these circumstances. He formally submitted that Capral had been wrongly decided, although acknowledging that it bound the Court as presently constituted. He argued that had the contrary construction contended for by the appellant in Capral been there adopted by the Full Court, the section would give the Court a discretion as to whether to increase the maximum penalty, and in this case, the Court would exercise that discretion in the defendant\u2019s favour, given the circumstances."
+  },
+  "query_id_36": {
+    "query": "What is the test for determining a \"genuine\" dispute or claim in the context of section 459H, as interpreted by Australian Commonwealth courts?",
+    "doc_id": "049",
+    "original_qa_id": "049",
+    "citation": "Cromwell (Australia) Pty Ltd Carlo Interiors Pty Ltd [1997] FCA 825",
+    "answer": "The test for determining a \"genuine\" dispute or claim under section 459H, as interpreted by Australian Commonwealth courts, is often phrased as \"whether there is a serious issue to be tried\". The test is not a particularly high one, but the court must be satisfied that there is a claim that may have some substance. This interpretation has been the subject of much judicial consideration, as seen in cases such as Mibor Investments Pty Ltd v Commonwealth Bank of Australia, Re Morris Catering (Australia) Pty Ltd, Scanhill Pty Ltd v Century 21 Australasia Pty Ltd, Chadwick Industries (South Coast) Pty Ltd v Condensing Vaporisers Pty Ltd, Eyota Pty Ltd v Hanave Pty Ltd, and Chase Manhattan Bank Australia Ltd v Oscty Pty Ltd."
+  },
+  "query_id_37": {
+    "query": "What modifications are required according to Amendment 2 of the AD/BEECH 200/46 Amdt 2 - Elevator Trim Tab System in the Commonwealth jurisdiction?",
+    "doc_id": "050",
+    "original_qa_id": "050",
+    "citation": "AD/BEECH 200/46 Amdt 2 - Elevator Trim Tab System (Cth)",
+    "answer": "According to Amendment 2 of the AD/BEECH 200/46 Amdt 2 - Elevator Trim Tab System in the Commonwealth jurisdiction, Rev IV of the Requirement document adds Part VIII, which requires additional work on the trim actuator."
+  },
+  "query_id_38": {
+    "query": "In the case of Tax Practitioners Board v Dedic [2014] FCA 511, what was the pecuniary penalty imposed on Ms Dedic for her contraventions and how was it determined?",
+    "doc_id": "051",
+    "original_qa_id": "051",
+    "citation": "Tax Practitioners Board v Dedic [2014] FCA 511",
+    "answer": "In the case of Tax Practitioners Board v Dedic [2014] FCA 511, a pecuniary penalty of $500 was imposed on Ms Dedic for each of the 86 contraventions, totalling $43,000. The penalty was determined by considering the penalties imposed in other cases where the contravention was of s 50-5 of the Act. The cumulative total of the penalty was deemed appropriate in relation to the entire contravening conduct involved. Given Ms Dedic\u2019s financial position, the court was prepared to make an order for the pecuniary penalty to be paid by instalments."
+  },
+  "query_id_39": {
+    "query": "What was the basis of the appellant's application for a protection visa in the case of Mendis v Minister for Immigration & Multicultural Affairs [2001] FCA 1660?",
+    "doc_id": "052",
+    "original_qa_id": "052",
+    "citation": "Mendis v Minister for Immigration & Multicultural Affairs [2001] FCA 1660",
+    "answer": "In the case of Mendis v Minister for Immigration & Multicultural Affairs [2001] FCA 1660, the appellant, a citizen of Sri Lanka who arrived in Australia on a student visa, applied for a protection visa under the Migration Act 1958 (Cth). The appellant claimed that her past experiences of harassment in Sri Lanka, which she attributed to her position as a married woman not residing with her husband, would continue if she returned to Sri Lanka. She argued that such conduct would be directed to her as a member of a particular social group. However, the Tribunal upheld a decision not to grant the appellant a protection visa on the ground that the facts described by the appellant did not amount to persecution within the meaning of the \"Convention\", a term defined in the Act, as required by s 36 and s 65 of the Act. The harm feared was not considered to have been of such severity or gravity that it would cause a person to forsake the country of nationality and seek protection elsewhere if the country of nationality was unable to provide that protection."
+  },
+  "query_id_40": {
+    "query": "In the case of Aljaro Pty Ltd v Weidmann [2001] NSWSC 370, what was the primary issue in dispute?",
+    "doc_id": "053",
+    "original_qa_id": "053",
+    "citation": "Aljaro Pty Ltd v Weidmann [2001] NSWSC 370",
+    "answer": "In the case of Aljaro Pty Ltd v Weidmann [2001] NSWSC 370, the primary issue in dispute was whether there was no effective secret trust, so that the plaintiff now took the balance of the fund beneficially, or whether that balance had some other destination."
+  },
+  "query_id_41": {
+    "query": "What was the decision of the Court of Appeal Supreme Court New South Wales in the case Carnemolla v Adelaide Bank Ltd [2013] NSWCA 166?",
+    "doc_id": "054",
+    "original_qa_id": "054",
+    "citation": "Carnemolla v Adelaide Bank Ltd [2013] NSWCA 166",
+    "answer": "In the case of Carnemolla v Adelaide Bank Ltd [2013] NSWCA 166, the Court of Appeal Supreme Court New South Wales decided to dismiss the notice of motion filed on 22 May 2013 seeking a stay, with costs. The exhibits tendered and admitted upon the hearing of the notice of motion were ordered to be returned after fourteen days."
+  },
+  "query_id_42": {
+    "query": "In the case of Antova v Bokan [2017] NSWSC 115, how does the court interpret the language of Order 8 and its relation to the Agreement's existence?",
+    "doc_id": "055",
+    "original_qa_id": "055",
+    "citation": "Antova v Bokan [2017] NSWSC 115",
+    "answer": "In Antova v Bokan [2017] NSWSC 115, the court found that nothing in the language of Order 8, or the Orders generally, supports the contention that Order 8 demonstrates a lack of intention to be immediately bound. The court also did not find support in the plain language of the Orders for the conclusion that Order 8 is a condition precedent to the Agreement coming into existence. If there were any doubt, the court would prefer a construction that it was a condition precedent to performance rather than to the Agreement itself coming into existence."
+  },
+  "query_id_43": {
+    "query": "In the case of Lift Capital Partners Pty Ltd (in Liq) v Bacnet Pty Ltd & ors [2010] NSWSC 857, what was the court's decision regarding the adjournment of the proceedings and the costs?",
+    "doc_id": "056",
+    "original_qa_id": "056",
+    "citation": "Lift Capital Partners Pty Ltd (in Liq) v Bacnet Pty Ltd & ors [2010] NSWSC 857",
+    "answer": "In the case of Lift Capital Partners Pty Ltd (in Liq) v Bacnet Pty Ltd & ors [2010] NSWSC 857, the court decided to adjourn the proceedings to Friday, 6 August 2010 at 9.15 a.m. in the Commercial List Judge\u2019s motion list. The court also ordered that the defendants pay the plaintiff\u2019s costs of the day."
+  },
+  "query_id_44": {
+    "query": "What does Section 190 of the Act state in relation to the use of an organisation's resources in an election for an office or other position, as per the decision in Carovska, in the matter of an application for an inquiry in relation to an election for offices in the Automotive, Food, Metals, Engineering, Printing and Kindred Industries Union, NSW Branch [2023] FCA 1129?",
+    "doc_id": "057",
+    "original_qa_id": "057",
+    "citation": "Carovska, in the matter of an application for an inquiry in relation to an election for offices in the Automotive, Food, Metals, Engineering, Printing and Kindred Industries Union, NSW Branch [2023] FCA 1129",
+    "answer": "In the decision of Carovska, in the matter of an application for an inquiry in relation to an election for offices in the Automotive, Food, Metals, Engineering, Printing and Kindred Industries Union, NSW Branch [2023] FCA 1129, it was noted that Section 190 of the Act provides that an organisation or branch commits an offence if it uses, or allows to be used, its property or resources to help a candidate against another candidate in an election under this Part for an office or other position. The penalty for this offence is 100 penalty units."
+  },
+  "query_id_45": {
+    "query": "In the case of BXQ v Children\u2019s Guardian [2016] NSWCATAD 102, what disciplinary measures does the applicant use for his nephews?",
+    "doc_id": "058",
+    "original_qa_id": "058",
+    "citation": "BXQ v Children\u2019s Guardian [2016] NSWCATAD 102",
+    "answer": "In the case of BXQ v Children\u2019s Guardian [2016] NSWCATAD 102, the applicant stated that he no longer uses corporal punishment to discipline his nephews. Instead, if he needs to discipline them, he stops their pocket money or mobile phone credit."
+  },
+  "query_id_46": {
+    "query": "In the case of Burgess v Woollahra Council [2004] NSWLEC 626, what was the court's decision regarding the objections of the residents to the proposed rear extension?",
+    "doc_id": "059",
+    "original_qa_id": "059",
+    "citation": "Burgess v Woollahra Council [2004] NSWLEC 626",
+    "answer": "In the case of Burgess v Woollahra Council [2004] NSWLEC 626, the court decided that the objections of the residents to the proposed rear extension were not sustainable and were not an impediment to the approval of the proposal."
+  },
+  "query_id_47": {
+    "query": "Under the Defence Determination 2017/39, Salary non-reduction \u2013 amendment (Cth), who is eligible to be paid at pay grade 8?",
+    "doc_id": "060",
+    "original_qa_id": "060",
+    "citation": "Defence Determination 2017/39, Salary non-reduction \u2013 amendment (Cth)",
+    "answer": "Under the Defence Determination 2017/39, Salary non-reduction \u2013 amendment (Cth), a member is eligible to be paid at pay grade 8 if they meet all of the following conditions: they were in the employment category of Army, Commando Grade 4 on 17 December 2014; they were in receipt of salary at pay grade 8; and they were performing duty in the employment category of Army, Commando Grade 4 between 17 December 2014 and the date of commencement of this Determination."
+  },
+  "query_id_48": {
+    "query": "What was the outcome of the case Tsecouras v Price [2008] FCA 845 in the Federal Court of Australia?",
+    "doc_id": "061",
+    "original_qa_id": "061",
+    "citation": "Tsecouras v Price [2008] FCA 845",
+    "answer": "In the case Tsecouras v Price [2008] FCA 845, the Federal Court of Australia ordered that the Notice of Appeal and proceedings NSD 655/2008 be struck out pursuant to O 20 r 5(2) of the Federal Court Rules (Cth). Additionally, the Appellant, Peter Tsecouras, was ordered to pay the costs of the Respondent, Anne Price."
+  },
+  "query_id_49": {
+    "query": "What is the duty of the Tribunal sitting in the Consumer and Commercial Division in New South Wales regarding giving reasons for its decisions?",
+    "doc_id": "062",
+    "original_qa_id": "062",
+    "citation": "Patrizi t/as Patrizi Motor Repairs v Garstang [2016] NSWCATAP 114",
+    "answer": "In New South Wales, the Tribunal sitting in the Consumer and Commercial Division has a duty under the common law to give reasons for its decisions, as explained in Collins v Urban [2014] NSWCATAP 17. However, the obligation to give reasons does not require lengthy or elaborate reasons, but it is necessary that the essential ground or grounds upon which the decision rests should be articulated. This is further supported by the requirement in s 36(4) of the Act that the practice and procedure of the Tribunal, which includes the giving of reasons for decisions, is to be implemented in such a way that the cost to the Tribunal is proportionate to the importance and complexity of the subject-matter of the proceedings. This was stated in the decision of Patrizi t/as Patrizi Motor Repairs v Garstang [2016] NSWCATAP 114."
+  },
+  "query_id_50": {
+    "query": "In the context of a review application, as per the decision in SHACKLEY v THE AUSTRALIAN CROATION CLUB LTD [1997] IRCA 134, is the club entitled to assume that the Judge hearing the review might have a different perspective on the evidence?",
+    "doc_id": "063",
+    "original_qa_id": "063",
+    "citation": "SHACKLEY v THE AUSTRALIAN CROATION CLUB LTD [1997] IRCA 134",
+    "answer": "Yes, according to the decision in SHACKLEY v THE AUSTRALIAN CROATION CLUB LTD [1997] IRCA 134, the Club, when applying for a review, was entitled to proceed on the basis that the Judge hearing the review might not take the same view about the evidence. The evidence upon which the review would be decided could be different in the sense that it would be given afresh, and real and material differences could emerge in the details of the evidence given and the manner in which it was given."
+  },
+  "query_id_51": {
+    "query": "Under the Food Standards Australia New Zealand Amendment (Forum on Food Regulation and Other Measures) Act 2016 (Cth), what is the procedure if the Authority approves a draft standard or a draft variation of a standard?",
+    "doc_id": "064",
+    "original_qa_id": "064",
+    "citation": "Food Standards Australia New Zealand Amendment (Forum on Food Regulation and Other Measures) Act 2016 (Cth)",
+    "answer": "Under the Food Standards Australia New Zealand Amendment (Forum on Food Regulation and Other Measures) Act 2016 (Cth), if the Authority approves a draft standard or a draft variation of a standard (with or without amendments), the Authority must give public notice of the approval, together with information about where further information about the draft standard or draft variation may be obtained."
+  },
+  "query_id_52": {
+    "query": "What action is required by the Airworthiness Directive (AD) AD/BELL 206/152 issued under subregulation 39.1 (1) of CAR 1998 in the Commonwealth jurisdiction?",
+    "doc_id": "065",
+    "original_qa_id": "065",
+    "citation": "AD/BELL 206/152 - Rescue Hoist (Cth)",
+    "answer": "The Airworthiness Directive (AD) AD/BELL 206/152, issued under subregulation 39.1 (1) of CAR 1998 in the Commonwealth jurisdiction, requires a one-time inspection of the rescue hoist mounting bracket on Model 206 helicopters equipped with a Breeze Eastern Aerospace rescue hoist series BL-16600, excluding BL-16600-160. This inspection must be performed in accordance with Breeze Eastern Customer Aerospace Advisory Bulletin CAB-100-56, dated 11 November 1997. The compliance for this directive is before the next usage of the rescue hoist after 6 November 2002, unless already accomplished. The directive became effective on 6 November 2002."
+  },
+  "query_id_53": {
+    "query": "What was the argument presented by Mr A M Hudson in the case of Crick - V - Warringah Council [1999] NSWLEC 51 regarding the erection of dwellings on a single allotment in residential zones?",
+    "doc_id": "067",
+    "original_qa_id": "067",
+    "citation": "Crick - V - Warringah Council [1999] NSWLEC 51",
+    "answer": "In the case of Crick - V - Warringah Council [1999] NSWLEC 51, Mr A M Hudson, representing the respondent, argued that the use of the singular terms \"a dwelling house\" and \"an allotment\" in clause 15, along with the definition of \"dwelling house\", implies that only one dwelling may be erected on a single allotment in residential zones. He supported his argument with references to the cases of Warringah Shire Council v S Y Holdings Pty Ltd and Giltej Securities Pty Ltd v Warringah Shire Council."
+  },
+  "query_id_54": {
+    "query": "What is the background and history of the individual discussed in the decision R v Care; R v Al-Khateib [2020] NSWDC 856?",
+    "doc_id": "069",
+    "original_qa_id": "069",
+    "citation": "R v Care; R v Al-Khateib [2020] NSWDC 856",
+    "answer": "In the decision R v Care; R v Al-Khateib [2020] NSWDC 856, the individual is described as being close to his family, although he does not have the opportunity to have them visit him due to COVID-19 restrictions. His parents are described as good people who have made a meaningful contribution to the community. His father had a history of alcohol misuse and his parents separated and divorced. He completed his education up to year 11 before leaving school to commence an apprenticeship as a boilermaker, which he completed upon his release from custody. He started his own business after his release. He began smoking cannabis at 15, was introduced to MDMA at about 18, and later used cocaine and methamphetamine regularly. He was involved in drug-related misconduct and accumulated a drug debt."
+  },
+  "query_id_55": {
+    "query": "What are some of the cases cited in the decision of Branagan v R [2020] NSWCCA 158?",
+    "doc_id": "071",
+    "original_qa_id": "071",
+    "citation": "Branagan v R [2020] NSWCCA 158",
+    "answer": "In the decision of Branagan v R [2020] NSWCCA 158, several cases were cited. These include Wong v The Queen (2001) 207 CLR 584; [2001] HCA 64; 76 ALJR 79; 185 ALR 233 at [58], Obeid v R (2017) 96 NSWLR 155; [2017] NSWCCA 221; 350 ALR 103 at [443], JM v R [2014] NSWCCA 297; 246 A Crim R 528 at [40] citing PD v R [2012] NSWCCA 244 at [44], BJS v R [2013] NSWCCA 123; 231 A Crim R 537 at [252]-[254], and R v Simpson (2001) 53 NSWLR 704; [2001] NSWCCA 534; 126 A Crim R 525 at [63]."
+  },
+  "query_id_56": {
+    "query": "In the case of Inspector Yates v Toorak Winery Pty Ltd [2010] NSWIRComm 136, what were the failures of the defendant in relation to maintaining a safe system of work?",
+    "doc_id": "072",
+    "original_qa_id": "072",
+    "citation": "Inspector Yates v Toorak Winery Pty Ltd [2010] NSWIRComm 136",
+    "answer": "In the case of Inspector Yates v Toorak Winery Pty Ltd [2010] NSWIRComm 136, the defendant failed to provide and maintain a safe system of work in several ways. Firstly, they failed to ensure that pinch points were identified to employees. Secondly, they failed to conduct an adequate risk assessment of the task of pressing the potters, in that they failed to identify adequately the risk of injury arising from the pinch points and how the risk could be controlled."
+  },
+  "query_id_57": {
+    "query": "What modifications are required by the Airworthiness Directive (AD) AD/B737/272 - Thrust Reverser Ground Logic issued under subregulation 39.001(1) of CASR 1998 for Boeing Model 737-100 and 737-200 series airplanes?",
+    "doc_id": "073",
+    "original_qa_id": "073",
+    "citation": "AD/B737/272 - Thrust Reverser Ground Logic (Cth)",
+    "answer": "The Airworthiness Directive (AD) AD/B737/272 - Thrust Reverser Ground Logic issued under subregulation 39.001(1) of CASR 1998 requires the installation of an approved modification to the Air/Ground Sensing System for Boeing Model 737-100 and 737-200 series airplanes. This modification should enable the thrust reverser logic by nose gear strut compression in addition to the present logic of the right main gear oleo compression. The compliance for this directive is within 30 days after the effective date of the AD, which is 19 January 2006."
+  },
+  "query_id_58": {
+    "query": "Under the Statutory Authorities Act 1962 (Tas), who comprises the committee of review when an authority requests a review of a report?",
+    "doc_id": "074",
+    "original_qa_id": "074",
+    "citation": "Statutory Authorities Act 1962 (Tas)",
+    "answer": "Under the Statutory Authorities Act 1962 (Tas), a committee of review, which is called upon when an authority requests a review of a report, consists of the Solicitor-General, a person not employed in the service of the State, and a person nominated by the authority."
+  },
+  "query_id_59": {
+    "query": "What was the outcome of the application for variation of an award in the case \"Transport Industry - Wholesale Butchers (State) Award [2007] NSWIRComm 1077\"?",
+    "doc_id": "075",
+    "original_qa_id": "075",
+    "citation": "Transport Industry - Wholesale Butchers (State) Award [2007] NSWIRComm 1077",
+    "answer": "In the case \"Transport Industry - Wholesale Butchers (State) Award [2007] NSWIRComm 1077\", the Industrial Relations Commission of New South Wales granted the application for variation of an award, leading to increases in wages and allowances."
+  },
+  "query_id_60": {
+    "query": "What was the primary complaint in the statement of claim in the case of Posture Slat (Aust) Pty Ltd v Bedco Pty Ltd & Anor [1995] FCA 317?",
+    "doc_id": "076",
+    "original_qa_id": "076",
+    "citation": "Posture Slat (Aust) Pty Ltd v Bedco Pty Ltd & Anor [1995] FCA 317",
+    "answer": "In the case of Posture Slat (Aust) Pty Ltd v Bedco Pty Ltd & Anor [1995] FCA 317, the primary complaint in the statement of claim was that the first respondent had published an advertisement which offered for sale \"adjustable beds under and by reference to the name \"Postureslat\" and that this conduct contravened the relevant sections of the Trade Practices Act."
+  },
+  "query_id_61": {
+    "query": "What does the term \"old Act\" refer to in the context of the Evidence Act 1995 (NSW)?",
+    "doc_id": "077",
+    "original_qa_id": "077",
+    "citation": "Evidence Act 1995 (NSW)",
+    "answer": "In the Evidence Act 1995 (NSW), the term \"old Act\" refers to either the Evidence Act 1898 or the Evidence (Reproductions) Act 1967."
+  },
+  "query_id_62": {
+    "query": "What does Section 14ZL(1) of the Administration Act provide in relation to objections against assessments, determinations, notices or decisions?",
+    "doc_id": "078",
+    "original_qa_id": "078",
+    "citation": "Bonnell v Deputy Commissioner of Taxation [2008] FCA 60",
+    "answer": "Section 14ZL(1) of the Administration Act provides a connection between Part IVC of the Administration Act and s 175A of the Assessment Act. It states that this Part applies if a provision of an Act provides that a person who is dissatisfied with an assessment, determination, notice or decision may object against it in the manner set out in this Part. This is according to the decision in Bonnell v Deputy Commissioner of Taxation [2008] FCA 60."
+  },
+  "query_id_63": {
+    "query": "In the case of North Sydney Council v O'Hara [2001] NSWLEC 286, what was the judge's assessment of Ms. O'Hara's understanding of the situation?",
+    "doc_id": "079",
+    "original_qa_id": "079",
+    "citation": "North Sydney Council v O'Hara [2001] NSWLEC 286",
+    "answer": "In the case of North Sydney Council v O'Hara [2001] NSWLEC 286, the judge was not satisfied that Ms. O'Hara had reached the point where she realised that the situation could only be resolved in a satisfactory way by the completion of the works through her own efforts and with the assistance of her own contractors and workmen."
+  },
+  "query_id_64": {
+    "query": "What are the charges for general insurers seeking approval to use the IMB Method as per the Australian Prudential Regulation Authority instrument fixing charges No. 5 of 2019 (Cth)?",
+    "doc_id": "080",
+    "original_qa_id": "080",
+    "citation": "Australian Prudential Regulation Authority instrument fixing charges No. 5 of 2019 (Cth)",
+    "answer": "According to the Australian Prudential Regulation Authority instrument fixing charges No. 5 of 2019 (Cth), the charges for general insurers seeking approval to use the IMB Method are $440,000 (inclusive of GST) if the general insurer is the first within an insurance group to seek approval. If the general insurer is not the first within an insurance group to seek approval, the charge is $165,000 (inclusive of GST). These charges are non-refundable and are to be paid 14 days after receipt of APRA\u2019s invoice for the charge."
+  },
+  "query_id_65": {
+    "query": "In the context of New South Wales legal proceedings, what factors may contribute to the potential unfairness of constraining a party to cross-examine a witness by video link?",
+    "doc_id": "081",
+    "original_qa_id": "081",
+    "citation": "SafeWork NSW v Astute Earth Works Pty Ltd [2023] NSWDC 12",
+    "answer": "In the decision of SafeWork NSW v Astute Earth Works Pty Ltd [2023] NSWDC 12, it was noted that constraining a party to cross-examine a witness by video link may sometimes involve a degree of unfairness, depending on the circumstances of the case. Relevant circumstances may include the importance of the witness, whether the witness's credibility was in issue, the nature and extent of documents involved, whether translation of documents or oral evidence is necessary, time differences in the other forum, and the quality of technology. In certain cases, depriving the cross-examiner of the reassurance that the gravity and immediacy of the moment, and of the supervising presence of the judge, are not lost on the witness and the cross-examination is not thereby rendered any less effective, to the possible prejudice of the cross-examining party, may also work relevant unfairness."
+  },
+  "query_id_66": {
+    "query": "What was the outcome of the case Econ Holdings Pty Ltd v Sims Lockwood & Partners [1999] FCA 368 in the Federal Court of Australia?",
+    "doc_id": "083",
+    "original_qa_id": "083",
+    "citation": "Econ Holdings Pty Ltd v Sims Lockwood & Partners [1999] FCA 368",
+    "answer": "In the case of Econ Holdings Pty Ltd v Sims Lockwood & Partners [1999] FCA 368, the Federal Court of Australia ordered that the application be dismissed with costs."
+  },
+  "query_id_67": {
+    "query": "What were the orders made in the first judgment of Williams v Williams [2022] NSWSC 711 in the New South Wales jurisdiction?",
+    "doc_id": "084",
+    "original_qa_id": "084",
+    "citation": "Williams v Williams (No. 2) [2022] NSWSC 1419",
+    "answer": "In the first judgment of Williams v Williams [2022] NSWSC 711, the Court in New South Wales ordered provision by the payment of the sum of $625,000 over 2.5 years in favour of the plaintiff under Succession Act 2006, Chapter 3 out of the estate of the plaintiff\u2019s father. The Court also ordered that the defendant\u2019s, Timothy\u2019s, costs be paid out of the estate on the indemnity basis and that the plaintiff\u2019s, Richard\u2019s, costs up to the conclusion of the hearing be paid out of the estate on the ordinary basis capped to a stated maximum amount of $147,548. The Court further directed that if any party sought a special costs order or any other consequential relief not dealt with in the first judgment then that party should apply by motion for such orders."
+  },
+  "query_id_68": {
+    "query": "What was the key issue in the case of Zufferey v City of Ryde Council [2008] NSWLEC 1479 in the Land and Environment Court of New South Wales?",
+    "doc_id": "085",
+    "original_qa_id": "085",
+    "citation": "Zufferey v City of Ryde Council [2008] NSWLEC 1479",
+    "answer": "The key issue in the case of Zufferey v City of Ryde Council [2008] NSWLEC 1479 in the Land and Environment Court of New South Wales was a development application involving the demolition of two existing dwellings and the construction of housing for seniors or people with a disability, with considerations of solar access and amenity impacts."
+  },
+  "query_id_69": {
+    "query": "Under the Drug Court Act 1998 (NSW), what factors must the Drug Court consider when reconsidering a drug offender's initial sentence upon termination of their program?",
+    "doc_id": "086",
+    "original_qa_id": "086",
+    "citation": "Drug Court Act 1998 (NSW)",
+    "answer": "Under the Drug Court Act 1998 (NSW), when terminating a drug offender's program, the Drug Court must reconsider the drug offender's initial sentence. In reconsidering the initial sentence, the Drug Court must take into consideration the nature of the drug offender's participation in his or her program, any sanctions that have been imposed on the drug offender during the program, and any time for which the drug offender has been held in custody in connection with an offence to which his or her program relates. This includes time during which the person has undergone imprisonment under the sentence or under the condition of the program arising under section 8A."
+  },
+  "query_id_70": {
+    "query": "What were the key issues considered in the case of Amir Ashrafinia v Mohammad Reza Ashrafinia; Parvaneh Karami Fakhrabadi v Mohammad Reza Ashrafinia (No. 2) [2014] NSWSC 145?",
+    "doc_id": "088",
+    "original_qa_id": "088",
+    "citation": "Amir Ashrafinia v Mohammad Reza Ashrafinia; Parvaneh Karami Fakhrabadi v Mohammad Reza Ashrafinia (No. 2) [2014] NSWSC 145",
+    "answer": "In the case of Amir Ashrafinia v Mohammad Reza Ashrafinia; Parvaneh Karami Fakhrabadi v Mohammad Reza Ashrafinia (No. 2) [2014] NSWSC 145, the court considered various orders consequential upon the Court's principal judgment. The key issues considered included the mechanism for the payment of the professional fees of the Court appointed expert, whether the judgment should be amended under the slip rule at the request of a non-party, whether the NSW Trustee and Guardian should be appointed trustee of the trust, and issues of document production, preparation of evidence for claims for just allowances and costs."
+  },
+  "query_id_71": {
+    "query": "What information is provided in the endnotes of the Primary Industries (Customs) Charges (Designated Bodies) Declaration 2017 (Cth)?",
+    "doc_id": "089",
+    "original_qa_id": "089",
+    "citation": "Primary Industries (Customs) Charges (Designated Bodies) Declaration 2017 (Cth)",
+    "answer": "The endnotes of the Primary Industries (Customs) Charges (Designated Bodies) Declaration 2017 (Cth) provide information about the compilation and the compiled law. They include an abbreviation key, legislation history, and amendment history. The abbreviation key sets out abbreviations that may be used in the endnotes. The legislation history provides information about each law that has amended or will amend the compiled law, including commencement details for amending laws and details of any application, saving or transitional provisions. The amendment history provides information about amendments at the provision level and about any provision of the compiled law that has been repealed. If the compilation includes editorial changes, the endnotes include a brief outline of these changes. Full details of any changes can be obtained from the Office of Parliamentary Counsel."
+  },
+  "query_id_72": {
+    "query": "Under the Nursing Service Cross Regulations - 18/10/1989 (Cth), who is responsible for maintaining a register of the names of persons to whom the decoration has been awarded?",
+    "doc_id": "090",
+    "original_qa_id": "090",
+    "citation": "Nursing Service Cross Regulations - 18/10/1989 (Cth)",
+    "answer": "Under the Nursing Service Cross Regulations - 18/10/1989 (Cth), a Registrar of Awards, who is appointed by the Governor-General, is responsible for maintaining a Register of the names of persons to whom the decoration has been awarded."
+  },
+  "query_id_73": {
+    "query": "Under what conditions can the obligations of the undertaking in the case of Novartis AG v Agvantage Pty Ltd [2012] FCA 160 be removed or modified?",
+    "doc_id": "091",
+    "original_qa_id": "091",
+    "citation": "Novartis AG v Agvantage Pty Ltd [2012] FCA 160",
+    "answer": "In the case of Novartis AG v Agvantage Pty Ltd [2012] FCA 160, the obligations pursuant to the undertaking can be removed or modified only with the prior written consent of Agvantage or by order of the Court."
+  },
+  "query_id_74": {
+    "query": "In the case of Chief Commissioner of State Revenue v Doney (RD) [2006] NSWADTAP 22, what was the Appeal Panel's decision regarding the appellant's request for leave to appeal in relation to the timing point?",
+    "doc_id": "092",
+    "original_qa_id": "092",
+    "citation": "Chief Commissioner of State Revenue v Doney (RD) [2006] NSWADTAP 22",
+    "answer": "In the case of Chief Commissioner of State Revenue v Doney (RD) [2006] NSWADTAP 22, the Appeal Panel decided to refuse the appellant's request for leave to appeal in relation to the timing point. This decision was made both in terms of leave to appeal out of time and for leave to extend the appeal to the merits. The deciding factor was the severity of the prejudice faced by the respondent. Despite the short period of the delay in filing and the reasonable arguments raised by the appellant in explaining the delay, the Appeal Panel considered that the prejudice was such that the public interest in determining the points raised under ss 147 and 150 of the Duties Act 1997 was insufficient to grant the appellant the leaves requested."
+  },
+  "query_id_75": {
+    "query": "In the case of SZILA v Minister for Immigration and Citizenship [2007] FCA 1420, what was the Tribunal's conclusion regarding the spread of the Maoist rebellion in Nepal?",
+    "doc_id": "093",
+    "original_qa_id": "093",
+    "citation": "SZILA v Minister for Immigration and Citizenship [2007] FCA 1420",
+    "answer": "In the case of SZILA v Minister for Immigration and Citizenship [2007] FCA 1420, the Tribunal concluded that the Maoist rebellion had spread to numerous parts of Nepal but there was no evidence to suggest that the rebellion had spread to all parts. The Tribunal gave the appellant more time to provide evidence or information on this issue but received nothing from him."
+  },
+  "query_id_76": {
+    "query": "In the case of Quality Parks Pty Limited v Maclean Shire Council [2002] NSWLEC 77, what conclusion would be drawn if the earlier decisions in Metropolitan Water Sewerage and Drainage Board v Botany Municipal Council (the Lakes Golf Club case) (1935) 12 LGRA 116 and Brush Park Bowling Club Ltd v Ryde Municipal Council (1970) 19 LGRA 380 were applied?",
+    "doc_id": "094",
+    "original_qa_id": "094",
+    "citation": "Quality Parks Pty Limited v Maclean Shire Council [2002] NSWLEC 77",
+    "answer": "In the case of Quality Parks Pty Limited v Maclean Shire Council [2002] NSWLEC 77, if the earlier decisions in Metropolitan Water Sewerage and Drainage Board v Botany Municipal Council (the Lakes Golf Club case) (1935) 12 LGRA 116 and Brush Park Bowling Club Ltd v Ryde Municipal Council (1970) 19 LGRA 380 were applied, the conclusion that the lease of the subject land is for \"private purposes\" would be inevitable and obvious."
+  },
+  "query_id_77": {
+    "query": "What factors should be considered in assessing the risk to the safety of children according to the New South Wales legislation?",
+    "doc_id": "096",
+    "original_qa_id": "096",
+    "citation": "BKP v Children's Guardian [2014] NSWCATAD 207",
+    "answer": "According to the decision in BKP v Children's Guardian [2014] NSWCATAD 207, the elements of risk assessment should take into account those matters which it is considered by the legislature to identify whether a risk to the safety of children is a real and appreciable risk, or in the Minister's words, a \"significant\" risk. These matters will be referred to more appropriately under the required considerations pursuant to section 30 (1) of the Act."
+  },
+  "query_id_78": {
+    "query": "In the case of BXS v Department of Family and Community Services [2015] NSWCATAD 269, what were the Tribunal's concerns regarding the Applicant's ability to care for her children?",
+    "doc_id": "097",
+    "original_qa_id": "097",
+    "citation": "BXS v Department of Family and Community Services [2015] NSWCATAD 269",
+    "answer": "In BXS v Department of Family and Community Services [2015] NSWCATAD 269, the Tribunal expressed concerns about the Applicant's ability to manage situations objectively and take appropriate protective steps when the children in her care may be at risk of harm, either physical or psychological. The Tribunal was particularly concerned about this due to the strained relationship between the Applicant and the Respondent, and the Applicant's belief that she had been subjected to unfair and unjust treatment by the Respondent. The Tribunal questioned the Applicant's capacity to meaningfully engage with the Respondent and actively seek out its help and support if the children in her care were at risk."
+  },
+  "query_id_79": {
+    "query": "In the context of the Adoption of Children Act 1985 in New South Wales, is the consent of the Director-General of the Department of Community Services required for a great-aunt to adopt a child?",
+    "doc_id": "098",
+    "original_qa_id": "098",
+    "citation": "Application of M [1999] NSWSC 497",
+    "answer": "Yes, according to the Application of M [1999] NSWSC 497, the consent of the Director-General of the Department of Community Services is required for a great-aunt to adopt a child. This is because a great-aunt is not a relative to whom the exception in Paragraph 18(2)(b) of the Adoption of Children Act 1985 applies."
+  },
+  "query_id_80": {
+    "query": "What are the jurisdictional tests under Part 2 of the Trees Act that the Court must be satisfied with before making any orders, as per the decision in Dominello v Bosso [2021] NSWLEC 1641 in New South Wales?",
+    "doc_id": "099",
+    "original_qa_id": "099",
+    "citation": "Dominello v Bosso [2021] NSWLEC 1641",
+    "answer": "In the decision of Dominello v Bosso [2021] NSWLEC 1641, it was outlined that under Part 2 of the Trees Act, the Court must be satisfied of certain matters before making any orders. Firstly, the Court must be satisfied that the applicant has made a reasonable effort to reach an agreement with the tree owner. Secondly, the Court must be satisfied that the trees concerned have caused, are causing, or are likely in the near future to cause, damage to the applicant\u2019s property, or are likely to cause injury to any person. The Court must also consider a range of matters at section 12 of the Trees Act before making such orders as it thinks fit to remedy, restrain or prevent damage to property, or to prevent injury to any person, as a consequence of the tree the subject of the application concerned."
+  },
+  "query_id_81": {
+    "query": "In the case of Ness v Stevenson [2020] NSWSC 631, what was the court's stance on the filing of a statement of claim seeking damages in judicial review proceedings commenced by summons?",
+    "doc_id": "100",
+    "original_qa_id": "100",
+    "citation": "Ness v Stevenson [2020] NSWSC 631",
+    "answer": "In Ness v Stevenson [2020] NSWSC 631, the court stated that it does not ordinarily countenance the filing of a statement of claim seeking damages in judicial review proceedings commenced by summons. The court further stated that if the statement of claim is clearly vexatious and otherwise embarrassing, it confirms that leave to file the statement of claim must be refused."
+  },
+  "query_id_82": {
+    "query": "What is the effect of uncommenced amendments on the text of the compiled law in the Higher Education Support (Indigenous Student Success Program) (Rollover of Grant Amounts) Determination 2018 (Cth)?",
+    "doc_id": "101",
+    "original_qa_id": "101",
+    "citation": "Higher Education Support (Indigenous Student Success Program) (Rollover of Grant Amounts) Determination 2018 (Cth)",
+    "answer": "In the Higher Education Support (Indigenous Student Success Program) (Rollover of Grant Amounts) Determination 2018 (Cth), the effect of uncommenced amendments is not shown in the text of the compiled law. Any uncommenced amendments affecting the law are accessible on the Legislation Register. The details of amendments made up to, but not commenced at, the compilation date are underlined in the endnotes."
+  },
+  "query_id_83": {
+    "query": "What is the three-stage process identified by the Court in Douar v R 159 A Crim R 154 for the imposition of a custodial sentence to be served by way of periodic detention?",
+    "doc_id": "103",
+    "original_qa_id": "103",
+    "citation": "Reed v Regina [2007] NSWCCA 4",
+    "answer": "In the decision of Reed v Regina [2007] NSWCCA 4, the Court referred to a three-stage process for the imposition of a custodial sentence to be served by way of periodic detention as identified in Douar v R 159 A Crim R 154. The sentencing Judge is to first consider whether there are any alternatives to the imposition of a term of imprisonment, if not, then to determine an appropriate period of imprisonment and then to consider whether any available alternative to full time custody should be utilised."
+  },
+  "query_id_84": {
+    "query": "Who were the applicants in the case of Singh v Minister for Immigration & Multicultural Affairs [2001] FCA 406 and what was the reason for their application?",
+    "doc_id": "104",
+    "original_qa_id": "104",
+    "citation": "Singh v Minister for Immigration & Multicultural Affairs [2001] FCA 406",
+    "answer": "In the case of Singh v Minister for Immigration & Multicultural Affairs [2001] FCA 406, the applicants were Hakam Singh, his wife, Gagandeep Kaur and their fourteen-year-old daughter, Amarjeet Kaur, who are from the Punjab in India. They arrived in Australia on 30 November 1997 and Hakam Singh applied for protection visas for himself, his wife and his daughter. The reason for their application, as stated by Hakam Singh in his application for a protection visa, was that they were baptised Sikhs who were tortured many times by the police in India due to the Sikhs' demand for greater autonomy and the subsequent operations carried out against them. He stated that he had lost his patience to tolerate more suffering and escaped from the country."
+  },
+  "query_id_85": {
+    "query": "In the case of Brown v Northern Territory of Australia [2015] FCA 1268, what areas of land and waters are covered by the Determination Area where native title rights and interests have been wholly extinguished?",
+    "doc_id": "105",
+    "original_qa_id": "105",
+    "citation": "Brown v Northern Territory of Australia [2015] FCA 1268",
+    "answer": "In the case of Brown v Northern Territory of Australia [2015] FCA 1268, native title rights and interests have been wholly extinguished in the Determination Area covered by public works as defined in s 253 of the Act, which were constructed, established or situated prior to 23 December 1996 or commenced to be constructed or established on or before that date. This includes public roads, community and pastoral access roads which are not otherwise public roads, gravel pits adjacent to the roads used to maintain those roads, access roads or tracks to the public works, Government bores and associated infrastructure including bores used for the establishment, operation or maintenance of public and other roads, river and rain gauges, transmission and distribution water pipes and associated infrastructure, sewer pipes, sewer pump stations and associated infrastructure, and electricity transmission lines, towers, poles and associated infrastructure."
+  },
+  "query_id_86": {
+    "query": "Who were the parties involved in the case Veterinary Surgeons Investigating Committee -v- Lloyd (Disciplinary Order: Inquiries 1 ('Chisel'), 2 ('Gypsy') and 3 ('Remus')) [2004] NSWADT 208 in New South Wales?",
+    "doc_id": "106",
+    "original_qa_id": "106",
+    "citation": "Veterinary Surgeons Investigating Committee -v- Lloyd (Disciplinary Order: Inquiries 1 ('Chisel'), 2 ('Gypsy') and 3 ('Remus')) [2004] NSWADT 208",
+    "answer": "In the case Veterinary Surgeons Investigating Committee -v- Lloyd (Disciplinary Order: Inquiries 1 ('Chisel'), 2 ('Gypsy') and 3 ('Remus')) [2004] NSWADT 208, the parties involved were the Veterinary Surgeons Investigating Committee as the applicant and Ronald George Lloyd as the respondent."
+  },
+  "query_id_87": {
+    "query": "What was the issue in the case of Hale v Mosman Council [2007] NSWLEC 788 in the Land and Environment Court of New South Wales?",
+    "doc_id": "107",
+    "original_qa_id": "107",
+    "citation": "Hale v Mosman Council [2007] NSWLEC 788",
+    "answer": "In the case of Hale v Mosman Council [2007] NSWLEC 788, the issue was an appeal against an order under s121B of the Environmental Planning and Assessment Act 1979. The order was made in respect of an unauthorised screen and fence attached to the top of the tennis court fence at the western side of the allotment at 18 Burrawong Avenue, Mosman. The screen and fence in question was an extension, about 20m long, which brought the existing 3.6m height of the fence to 5m above the level of the tennis court. The entire structure was lined with a synthetic material called \u201cinstant picket hedge\u201d. The council intended the removal of the synthetic lining not only from the extension above the existing fence, but also from the existing tennis court fence. However, the s121B Order referred only to the extension."
+  },
+  "query_id_88": {
+    "query": "What were the orders regarding costs in the case S v State of New South Wales (No 2) [2008] NSWSC 1116?",
+    "doc_id": "108",
+    "original_qa_id": "108",
+    "citation": "S v State of New South Wales (No 2) [2008] NSWSC 1116",
+    "answer": "In the case S v State of New South Wales (No 2) [2008] NSWSC 1116, the court ordered that the plaintiff pay the defendant's costs after a certain time on an indemnity basis, with the exception of separate costs orders in favour of the plaintiff on discrete issues."
+  },
+  "query_id_89": {
+    "query": "In the case of HNA Irish Nominee Limited v Kinghorn [2010] FCA 311, what rights are conferred to the directors in relation to the issuance of shares in RILA VQY?",
+    "doc_id": "109",
+    "original_qa_id": "109",
+    "citation": "HNA Irish Nominee Limited v Kinghorn [2010] FCA 311",
+    "answer": "In the case of HNA Irish Nominee Limited v Kinghorn [2010] FCA 311, it was provided that the directors of RILA VQY have the right to issue shares without prejudice to any special rights conferred on the holders of existing shares or classes of shares. These shares may be issued with preferred, deferred or other special rights or restrictions, with regard to dividend, voting, return of capital or otherwise, as determined by the directors through resolution. The directors also have the specific right to issue shares in the capital of RILA VQY from the classes set out in Part A of Schedule 14."
+  },
+  "query_id_90": {
+    "query": "In the case of Nixon -V- Wyong S.C. [1999] NSWLEC 46, what were the key issues considered by the Assessor and what was the final decision?",
+    "doc_id": "112",
+    "original_qa_id": "112",
+    "citation": "Nixon -V- Wyong S.C. [1999] NSWLEC 46",
+    "answer": "In the case of Nixon -V- Wyong S.C. [1999] NSWLEC 46, the Assessor considered several issues including: breach of building application, lack of planning permission for dual-occupancy development, flood liability of land, and non-compliance with dual-occupancy criteria. The Assessor also considered the submissions made by both parties and the entitlement of the applicant to rely on the benefit of existing use rights. After considering all the evidence and submissions, the Assessor decided to confirm the order under s 124 of the LG Act. The Assessor held that a requirement to return to the use as a single dwelling house as a consequence of the operation of the condition of building approval given in 1974 was an appropriate subject for an order under s 124 of the Act. The Assessor did not consider existing use rights, if any, to be a relevant matter or at least to have sufficient weight to convince him otherwise."
+  },
+  "query_id_91": {
+    "query": "Under the Mutual Assistance in Criminal Matters (Monaco) Regulations 2001 (Cth), can the Requested State postpone the delivery of material requested by the Requesting State?",
+    "doc_id": "113",
+    "original_qa_id": "113",
+    "citation": "Mutual Assistance in Criminal Matters (Monaco) Regulations 2001 (Cth)",
+    "answer": "Yes, under the Mutual Assistance in Criminal Matters (Monaco) Regulations 2001 (Cth), the Requested State may postpone the delivery of material requested if such material is required for proceedings in respect of criminal or civil matters in that State."
+  },
+  "query_id_92": {
+    "query": "In the case of Leviston v PQ Management Pty Ltd (No 3) [2023] FCA 986, what was the basis for Mr Ashby's conclusion regarding the capitalisation multiple?",
+    "doc_id": "114",
+    "original_qa_id": "114",
+    "citation": "Leviston v PQ Management Pty Ltd (No 3) [2023] FCA 986",
+    "answer": "In the case of Leviston v PQ Management Pty Ltd (No 3) [2023] FCA 986, Mr Ashby derived the capitalisation multiple of 3.00 by considering factors such as TWA's size, access to capital markets, diversification and management capability, relative to comparable businesses. His conclusion that the multiple should be at the lower end of the range was also supported by his analysis of the earnings multiples implied by PQ Management\u2019s acquisition of 70% of TWA\u2019s equity, effective 1 August 2017. Despite being thoroughly cross-examined, Mr Ashby remained unshaken in his opinion and his explanations for his conclusions were found to be well-founded."
+  },
+  "query_id_93": {
+    "query": "In the case of Daniel Terry Behman v Tarek Behman [2015] NSWSC 1787, what was the nature of the common enterprise between the father and son?",
+    "doc_id": "115",
+    "original_qa_id": "115",
+    "citation": "Daniel Terry Behman v Tarek Behman (also known as Terry Behman) [2015] NSWSC 1787",
+    "answer": "In the case of Daniel Terry Behman v Tarek Behman [2015] NSWSC 1787, the common enterprise between the father and son was the maintenance of a home within which all family members could reside and the needs of family members such as food, private school fees, trips and in the case of this family, motor bikes, and other leisure activities, could be met."
+  },
+  "query_id_94": {
+    "query": "In the case of Todd v University of New South Wales [2004] NSWADT 250, what was the decision regarding the release of Document 2 to the applicant?",
+    "doc_id": "116",
+    "original_qa_id": "116",
+    "citation": "Todd v University of New South Wales [2004] NSWADT 250",
+    "answer": "In Todd v University of New South Wales [2004] NSWADT 250, the decision was that the University's refusal to release Document 2 to the applicant was the correct and preferable one. This was due to the nature of Document 2 and the belief that its disclosure would be contrary to the public interest. It was also deemed impracticable to remove exempt matter from the document to allow the applicant access to it."
+  },
+  "query_id_95": {
+    "query": "In the case of SZBKV v Minister for Immigration and Citizenship [2008] FCA 889, how did the applicant participate in the hearing?",
+    "doc_id": "117",
+    "original_qa_id": "117",
+    "citation": "SZBKV v Minister for Immigration and Citizenship [2008] FCA 889",
+    "answer": "In the case of SZBKV v Minister for Immigration and Citizenship [2008] FCA 889, the applicant participated in the hearing by telephone with the assistance of the court's appointed Punjabi interpreter."
+  },
+  "query_id_96": {
+    "query": "What were the grounds of appeal raised by the Construction Forestry Mining and Energy Union (CFMEU) in the case of Construction Forestry Mining and Energy Union v Endeavour Coal Pty Ltd [2015] FCAFC 76?",
+    "doc_id": "118",
+    "original_qa_id": "118",
+    "citation": "Construction Forestry Mining and Energy Union v Endeavour Coal Pty Ltd [2015] FCAFC 76",
+    "answer": "In the case of Construction Forestry Mining and Energy Union v Endeavour Coal Pty Ltd [2015] FCAFC 76, the CFMEU raised four grounds of appeal. These grounds alleged error in factual findings relevant to, and in the application of, sections 340(1) and 351(1) of the Fair Work Act. However, the CFMEU did not press the section 351 aspect of the appeal. The grounds that were addressed related to a contravention of section 340. The first ground alleged that the primary judge erred in failing to find a contravention of section 340(1) of the Fair Work Act. The second ground alleged that the primary judge made a wrong finding of fact regarding the September 2010 adverse action. The third ground alleged that the primary judge erred in taking into account the fact that Endeavour was less intolerant of absences during weekday shifts than during weekend shifts when considering whether adverse action was taken because an employee had exercised a workplace right to take personal/carer\u2019s leave."
+  },
+  "query_id_97": {
+    "query": "In the case of Watkins -v- Chief Executive, Roads and Traffic Authority [2000] NSWADT 11, what was the court's interpretation of the phrase \"in relation to the enforcement or administration of the law\" in clause 4(1)(b)?",
+    "doc_id": "120",
+    "original_qa_id": "120",
+    "citation": "Watkins -v- Chief Executive, Roads and Traffic Authority [2000] NSWADT 11",
+    "answer": "In Watkins -v- Chief Executive, Roads and Traffic Authority [2000] NSWADT 11, the court interpreted the phrase \"in relation to the enforcement or administration of the law\" in clause 4(1)(b) narrowly. The court concluded that this phrase could not \"reasonably\" be applied to information in the present documents concerning the RTA Medical Unit\u2019s investigation of Mr Watkins\u2019 fitness to drive."
+  },
+  "query_id_98": {
+    "query": "What was the issue with the Puritan-Bennett Aero Systems Company Series 174290 Constant Flow Airline Portable Oxygen Masks manufactured between 1 September 1992 to 30 August 1996 according to the Australian secondary legislation AD/OXY/15?",
+    "doc_id": "121",
+    "original_qa_id": "121",
+    "citation": "AD/OXY/15 - Puritan Bennett Oxygen Masks Withdrawal From Service (Cth)",
+    "answer": "According to the Australian secondary legislation AD/OXY/15 - Puritan Bennett Oxygen Masks Withdrawal From Service (Cth), the Puritan-Bennett Aero Systems Company Series 174290 Constant Flow Airline Portable Oxygen Masks manufactured between 1 September 1992 to 30 August 1996 had a design error. This error was incorporated during a drawing revision to an orifice in the connector of the masks. When manufactured to this drawing revision, the airflow of these masks could be restricted to 1.7 litres per minute, which is less than half the oxygen flow required, when the orifice is connected to the Puritan-Bennett Model 176960 airline portable oxygen cylinder assembly."
+  },
+  "query_id_99": {
+    "query": "What powers does the court have under Section 90-15 of Schedule 2 to the Bankruptcy Act in relation to the administration of a regulated debtor\u2019s estate?",
+    "doc_id": "122",
+    "original_qa_id": "122",
+    "citation": "Hurdis v Jones (Trustee), in the matter of Hurdis [2022] FCA 980",
+    "answer": "Under Section 90-15 of Schedule 2 to the Bankruptcy Act, the court has the power to make such orders as it thinks fit in relation to the administration of a regulated debtor\u2019s estate. This can include, but is not limited to, an order determining any question arising in the administration of the estate, an order that a person cease to be the trustee of the estate, an order that another person be appointed as the trustee of the estate, and an order in relation to the costs of an action (including court action) taken by the trustee of the estate or another person in relation to the administration of the estate. This was referenced in the case of Hurdis v Jones (Trustee), in the matter of Hurdis [2022] FCA 980."
+  },
+  "query_id_100": {
+    "query": "In the case of R v Gutierrez [2004] NSWCCA 22, what actions did the appellant take after Atkinson left Australia for New Zealand?",
+    "doc_id": "123",
+    "original_qa_id": "123",
+    "citation": "R v Gutierrez [2004] NSWCCA 22",
+    "answer": "In the case of R v Gutierrez [2004] NSWCCA 22, after Atkinson left Australia for New Zealand, the appellant made enquiries with the Singapore Money Exchange about exchanging cash for blank traveller\u2019s cheques without having to fill in any forms. On 6 September 1999, the appellant exchanged a quantity of cash for unsigned traveller\u2019s cheques with an Usha Malik. The appellant then posted a number of cheques, which contained unsigned traveller\u2019s cheques totalling USD$28,450, wrapped in carbon paper and hidden in a greeting card. A similar transaction occurred on 9 September 1999, and Federal Police recovered traveller\u2019s cheques totalling USD$16,500. Between 10 September and 20 September 1999, the appellant made several calls to people enquiring about the receipt of the cards and expressing the view that perhaps the carbon paper was interfering with the process."
+  },
+  "query_id_101": {
+    "query": "In the case of Murlan Consulting Pty Ltd v Ku-ring-gai Municipal Council [2007] NSWLEC 182, what was the separate question that the court ordered to be heard and determined?",
+    "doc_id": "124",
+    "original_qa_id": "124",
+    "citation": "Murlan Consulting Pty Ltd v Ku-ring-gai Municipal Council [2007] NSWLEC 182",
+    "answer": "In the case of Murlan Consulting Pty Ltd v Ku-ring-gai Municipal Council [2007] NSWLEC 182, the separate question that the court ordered to be heard and determined was: \u201cWhether the proposed development on Lots 1 and 2 DP 375262 (Primary Development Lots), the subject of this appeal, is development on land zoned \u201cprimarily for urban purposes\u201d within the meaning of cl 17(a) of the Seniors Living SEPP\u201d."
+  },
+  "query_id_102": {
+    "query": "In the context of Australian law, how is it determined whether parties have entered into contracts and on what terms?",
+    "doc_id": "125",
+    "original_qa_id": "125",
+    "citation": "Allianz v Fyna [2001] NSWSC 657",
+    "answer": "According to the decision in Allianz v Fyna [2001] NSWSC 657, it is determined whether parties have entered into contracts and on what terms by viewing the conduct of the parties in light of the surrounding circumstances. This conduct must be capable of proving all the essential elements of an express contract. A contract or its terms may be inferred from the conduct of the parties in certain factual circumstances. However, care must be taken not to infer anterior promises from conduct which represents no more than an adjustment of their relationship in the light of changing circumstances."
+  },
+  "query_id_103": {
+    "query": "What are some considerations for the separate and preliminary determination of a question under Order 29 Rule 2 in the Commonwealth jurisdiction, as discussed in the case of Concrete Pty Ltd v Parramatta Design & Developments Pty Ltd and Anor [2004] FCA 293?",
+    "doc_id": "126",
+    "original_qa_id": "126",
+    "citation": "Concrete Pty Ltd v Parramatta Design & Developments Pty Ltd and Anor [2004] FCA 293",
+    "answer": "In the case of Concrete Pty Ltd v Parramatta Design & Developments Pty Ltd and Anor [2004] FCA 293, it was noted that several factors should be considered for the separate and preliminary determination of a question under Order 29 Rule 2. These include whether the question is one of mixed fact and law, and if so, it must be precisely formulated and all relevant facts must be ascertainable. Care must be taken to avoid determining issues not \"ripe\" for separate and preliminary determination. Factors that support the making of an order under Order 29 Rule 2 include the potential for saving time and cost by narrowing the issues for trial, or contributing to the settlement of the litigation. Conversely, factors against the making of an order include the potential for the separate determination of the question to complicate the proceedings."
+  },
+  "query_id_104": {
+    "query": "In the case of Snedden v Republic of Croatia (No 2) [2009] FCAFC 132, what was the appellant's request after the appeal was allowed?",
+    "doc_id": "127",
+    "original_qa_id": "127",
+    "citation": "Snedden v Republic of Croatia (No 2) [2009] FCAFC 132",
+    "answer": "In the case of Snedden v Republic of Croatia (No 2) [2009] FCAFC 132, after the appeal was allowed, the appellant sought an order that the costs ordered below, that he pay the respondent\u2019s costs, be reversed. He argued that such an order should be made as, on a successful appeal, the costs should follow the event."
+  },
+  "query_id_105": {
+    "query": "In the case of Legal Employment Consulting & Training Pty Ltd v Patterson & Anor [2010] NSWSC 130, what was the court's view on the argument that the defendants would be unjustly enriched if a costs order was made in their favour?",
+    "doc_id": "128",
+    "original_qa_id": "128",
+    "citation": "Legal Employment Consulting & Training Pty Ltd v Patterson & Anor [2010] NSWSC 130",
+    "answer": "In the case of Legal Employment Consulting & Training Pty Ltd v Patterson & Anor [2010] NSWSC 130, the court rejected the argument that the defendants would be unjustly enriched if a costs order was made in their favour. The court found this proposition untenable in law due to the doctrine of equitable subrogation. Furthermore, the court found no arguable basis to support the claim that there is a genuine dispute in relation to the costs order which has been made and is supported by a judgment."
+  },
+  "query_id_106": {
+    "query": "What was the reason for Nokia Corporation initiating proceedings for summary judgment against the eighth respondent in the case Nokia Corporation v Truong [2004] FCA 1109?",
+    "doc_id": "129",
+    "original_qa_id": "129",
+    "citation": "Nokia Corporation v Truong [2004] FCA 1109",
+    "answer": "In the case Nokia Corporation v Truong [2004] FCA 1109, Nokia Corporation initiated proceedings for summary judgment against the eighth respondent because the eighth respondent did not agree to delivery up of the infringing goods or to payment of damages or to provide an account of profits, despite admitting liability."
+  },
+  "query_id_107": {
+    "query": "In the case of FFR v Commissioner of Victims Rights [2022] NSWCATAD 103, what was the issue for determination and what was the tribunal's decision regarding the eligibility of FFR for victims support under Pt 4 of the Act?",
+    "doc_id": "130",
+    "original_qa_id": "130",
+    "citation": "FFR v Commissioner of Victims Rights [2022] NSWCATAD 103",
+    "answer": "In the case of FFR v Commissioner of Victims Rights [2022] NSWCATAD 103, the issue for determination was whether the act of arson that occurred on 25 February 2021, and the injuries arising as a result of that act, made FFR eligible for victims support under Pt 4 of the Act. The tribunal decided that FFR was not eligible for victims support. This decision was based on the interpretation of the term \"act of violence\" as defined in s 19 of the Act and the definition of \"injury\" in s 18 of the Act, which was found to exclude an injury arising from loss or damage to property. Furthermore, the tribunal found that the evidence did not support a finding that the act of arson was either such as to cause personal intimidation or intended to cause intimidation or submission of FFR."
+  },
+  "query_id_108": {
+    "query": "In the case of Timberland Property Holdings Pty Ltd v Julie Bundy [2005] NSWCA 419, what evidence was provided to describe the conditions of the car park where the plaintiff slipped and fell?",
+    "doc_id": "131",
+    "original_qa_id": "131",
+    "citation": "Timberland Property Holdings Pty Ltd v Julie Bundy [2005] NSWCA 419",
+    "answer": "In the case of Timberland Property Holdings Pty Ltd v Julie Bundy [2005] NSWCA 419, evidence was provided by Ms Danielli who described the car park as having a grease patch where the plaintiff's heel had slipped through. She noted that the lighting was \"very dim, very dark\" and the time was \"about 4 in the afternoon\" on a stormy and \"quite cloudy\" day. The plaintiff also returned to the scene of the accident at about 5pm and took photographs with a flash, showing the grease or oil on the concrete car park floor and the skid mark made by her heel when she slipped and fell. The photographs suggested that more than one vehicle may have used the car park after the spill occurred and prior to the fall."
+  },
+  "query_id_109": {
+    "query": "What are the consequences for a disqualified person under section 126K of the SISA who knowingly acts as a trustee, investment manager, or custodian of a superannuation entity?",
+    "doc_id": "132",
+    "original_qa_id": "132",
+    "citation": "Notice of Disqualification \u2013 Maata Tai-Rakena (Cth)",
+    "answer": "Under section 126K of the SISA, it is an offence for a disqualified person, who knows that he or she is a disqualified person, to be, or act as a trustee, investment manager or custodian of a superannuation entity. The maximum penalty for committing this offence is two years jail."
+  },
+  "query_id_110": {
+    "query": "In the context of company law in New South Wales, what is the recognised method for decision-making by the members of a company?",
+    "doc_id": "133",
+    "original_qa_id": "133",
+    "citation": "In the matter of New South Wales Leagues' Club Limited [2014] NSWSC 1610",
+    "answer": "In the context of company law in New South Wales, as per the decision in the matter of New South Wales Leagues' Club Limited [2014] NSWSC 1610, the recognised method for decision-making by the members of a company is the company in general meeting. In the case of a proprietary company, provision is also made for \"circulating resolutions\" to have the same effect without a formal meeting, where there is unanimity under the Corporations Act, s 249A. The Corporations Act, the memorandum or articles of the Club, or the common law of companies do not recognise a referendum of members as a means of corporate decision-making. In a corporate constitution, a reference to a decision of the members means a decision of the members in general meeting, or by such other means (such as circulating resolution) as is given equivalent effect."
+  },
+  "query_id_111": {
+    "query": "In the case of Dogrow Pty Ltd v Teakdale Pty Ltd [2013] NSWSC 726, what were the two bases on which Teakdale disputed Dogrow's right to transfer the Gaming Machine Entitlements (GMEs)?",
+    "doc_id": "134",
+    "original_qa_id": "134",
+    "citation": "Dogrow Pty Ltd v Teakdale Pty Ltd [2013] NSWSC 726",
+    "answer": "In the case of Dogrow Pty Ltd v Teakdale Pty Ltd [2013] NSWSC 726, Teakdale disputed Dogrow's right to transfer the Gaming Machine Entitlements (GMEs) on two bases: (1) That the lease precludes Dogrow from reducing the number of GMEs and that any transfer to reduce the number to below 15 GMEs would constitute a breach of the lease. (2) That Teakdale has a financial interest in the hotel license within the meaning of s 19(5) of the Gaming Machines Act 2001 (NSW) with the consequence that any application by Dogrow for transfer of the GMEs requires Teakdale's approval."
+  },
+  "query_id_112": {
+    "query": "In the context of New South Wales law, can a company be bound by a contract independently of the Corporations Act?",
+    "doc_id": "136",
+    "original_qa_id": "136",
+    "citation": "In the matter of Antqip Hire Pty Limited (subject to deed of company arrangement) (in liquidation) [2020] NSWSC 487",
+    "answer": "No, a company cannot be bound by a contract independently of the Corporations Act. As concluded by Gleeson JA in the matter of Antqip Hire Pty Limited (subject to deed of company arrangement) (in liquidation) [2020] NSWSC 487, the binding force of a Deed of Company Arrangement (DOCA) only arises by reason of section 444G of the Corporations Act. If the DOCA never came into force due to failure to comply with the requirements of the Corporations Act, its provisions would never become the source of any obligation."
+  },
+  "query_id_113": {
+    "query": "Under the CASA 502/98 - Approval under subregulation 207(2) (Cth), what are the requirements for the operation of aircraft with nasal cannula type individual oxygen dispensing units?",
+    "doc_id": "137",
+    "original_qa_id": "137",
+    "citation": "CASA 502/98 - Approval under subregulation 207(2) (Cth)",
+    "answer": "Under the CASA 502/98 - Approval under subregulation 207(2) (Cth), the operation of aircraft bearing the nationality and registration marks VH-AOV with nasal cannula type individual oxygen dispensing units manufactured under the name \u201cOxymizer\u201d is approved, provided that: (a) the units have a flow rate of not less than .3 litre per minute at 10,000 feet altitude, increasing by .1 litre per minute for every 2,000 feet up to 18,000 feet altitude; and (b) other individual oxygen dispensing units for use in the aircraft, that are designed to cover the nose and mouth, meet the requirements of paragraph 6.1 of section 108.26 of the Civil Aviation Orders and are provided in accordance with paragraph 5.1.2 of that section."
+  },
+  "query_id_114": {
+    "query": "In the case of Carminco Gold & Resources Limited v Findlay & Co Stockbrokers (Underwriters) Pty Limited [2007] FCAFC 194, what was the contract issue that was raised?",
+    "doc_id": "138",
+    "original_qa_id": "138",
+    "citation": "Carminco Gold & Resources Limited v Findlay & Co Stockbrokers (Underwriters) Pty Limited [2007] FCAFC 194",
+    "answer": "In the case of Carminco Gold & Resources Limited v Findlay & Co Stockbrokers (Underwriters) Pty Limited [2007] FCAFC 194, the contract issue raised was a question as to who, objectively considered, were intended to be the parties to the contract under which the monetary advances were to be made."
+  },
+  "query_id_115": {
+    "query": "In the case of Ferizis v Nash [2007] NSWDC 109, what were the reasons given by the judge for his factual findings?",
+    "doc_id": "139",
+    "original_qa_id": "139",
+    "citation": "Ferizis v Nash [2007] NSWDC 109",
+    "answer": "In Ferizis v Nash [2007] NSWDC 109, the judge's factual findings were largely based on his assessment of the plaintiff, the defendants, and Lahood. The judge did not identify any errors in these findings, but acknowledged that the defendants may wish to contest their correctness."
+  },
+  "query_id_116": {
+    "query": "In the case of Missingham v Shamin [2011] NSWSC 1208, what was the second ground advanced by the plaintiff and what evidence was provided in support of this?",
+    "doc_id": "140",
+    "original_qa_id": "140",
+    "citation": "Missingham v Shamin [2011] NSWSC 1208",
+    "answer": "In the case of Missingham v Shamin [2011] NSWSC 1208, the second ground advanced was that the plaintiff did not come to Court with clean hands. This was based on the proposition that it is to be inferred from the postings on the BLITZ website that the initial post was made with the consent, if not on the instructions, of the plaintiff. In support of this, the plaintiff filed an affidavit of his solicitor Mr Peter Horvath, who deposed that the posting by Mr Shamin appears to be part of a letter sent by email from Goldsmiths Lawyers to Mr Shamin. He further stated that he was informed by Mr Missingham and verily believed that Mr Missingham did not ask any person to make any of the postings which appear in PH2, and has not, other than as permitted by clause 8.2 of the Deed, disclosed anything about the Deed or the terms of settlement contained in the Deed."
+  },
+  "query_id_117": {
+    "query": "In the case of People for the Plains Incorporated v Santos NSW (Eastern) [2015] NSWSC 1792, what was the court's decision regarding the jurisdiction of the Land and Environment Court to hear and dispose of matters under the Petroleum (Onshore) Act?",
+    "doc_id": "141",
+    "original_qa_id": "141",
+    "citation": "People for the Plains Incorporated v Santos NSW (Eastern) [2015] NSWSC 1792",
+    "answer": "In the case of People for the Plains Incorporated v Santos NSW (Eastern) [2015] NSWSC 1792, the court determined that the Land and Environment Court does not have jurisdiction to hear and dispose of matters under the Petroleum (Onshore) Act within its jurisdiction with respect to Class 4 matters. However, it was noted that the Land and Environment Court Act provides for Class 8 matters, which are \"mining matters\", and include proceedings under the Petroleum (Onshore) Act. Despite this, the proceedings commenced in this Court for judicial review do not fall within the jurisdiction conferred by the Land and Environment Court Act."
+  },
+  "query_id_118": {
+    "query": "What are the obligations of a person conducting a business or undertaking at a workplace in Tasmania, where an accident or incident occurred before the 2012 commencement day and had not been complied with regulation 63 of the former regulations?",
+    "doc_id": "143",
+    "original_qa_id": "143",
+    "citation": "Work Health and Safety (Transitional) Regulations 2022 (Tas)",
+    "answer": "Under the Work Health and Safety (Transitional) Regulations 2022 (Tas), if an accident or incident occurred before the 2012 commencement day and regulation 63 of the former regulations had not been complied with, the person conducting a business or undertaking at the workplace where the accident or incident occurred must as soon as reasonably practicable investigate the accident or incident to attempt to discover its cause and identify and implement measures to prevent the accident or incident from occurring again. Failure to do so may result in a fine not exceeding 20 penalty units."
+  },
+  "query_id_119": {
+    "query": "Who was the judge in the case Cao v Apollo Phoenix Resources Pty Ltd [2019] FCA 1113?",
+    "doc_id": "145",
+    "original_qa_id": "145",
+    "citation": "Cao v Apollo Phoenix Resources Pty Ltd [2019] FCA 1113",
+    "answer": "The judge in the case Cao v Apollo Phoenix Resources Pty Ltd [2019] FCA 1113 was LEE J."
+  },
+  "query_id_120": {
+    "query": "In the context of Australian Commonwealth law, what factors may lead to a decision at first instance being attended by sufficient doubt to warrant reconsideration?",
+    "doc_id": "149",
+    "original_qa_id": "149",
+    "citation": "Singh v Minister for Immigration and Border Protection [2019] FCA 633",
+    "answer": "According to the decision in Singh v Minister for Immigration and Border Protection [2019] FCA 633, the question of whether a decision at first instance is attended by sufficient doubt to warrant reconsideration is not limited to an analysis of the reasons given at first instance. While it is generally expected that an appellant demonstrate an error of the kind falling within the class of error recognised in House v The King manifest from the reasons at first instance, errors falling within the established class may be identified from facts extraneous to the reasons. There may be extraneous facts or circumstances of which the court at first instance was not aware. Those facts or circumstances may lead to a conclusion that the decision, through no error or oversight on the part of the judge at first instance, is nevertheless attended by sufficient doubt to warrant reconsideration."
+  },
+  "query_id_121": {
+    "query": "In the case of Joubert in his capacity as liquidator of Barry Ling Pty Ltd (in Liquidation) v Allan Jones (No 2) [2013] NSWSC 572, what was the outcome regarding the costs of the proceedings?",
+    "doc_id": "150",
+    "original_qa_id": "150",
+    "citation": "Joubert in his capacity as liquidator of Barry Ling Pty Ltd (in Liquidation) v Allan Jones (No 2) [2013] NSWSC 572",
+    "answer": "In the case of Joubert in his capacity as liquidator of Barry Ling Pty Ltd (in Liquidation) v Allan Jones (No 2) [2013] NSWSC 572, the court decided that Mrs Jones should pay half of the liquidator's costs. However, for the costs of the proceedings in the court, the court made no order as to costs."
+  },
+  "query_id_122": {
+    "query": "When did the Health Insurance (Pathology) (Fees) Amendment (Norfolk Island) Act 2015 (Cth) commence?",
+    "doc_id": "152",
+    "original_qa_id": "152",
+    "citation": "Health Insurance (Pathology) (Fees) Amendment (Norfolk Island) Act 2015 (Cth)",
+    "answer": "The Health Insurance (Pathology) (Fees) Amendment (Norfolk Island) Act 2015 (Cth) commenced on the day it received the Royal Assent, which was on 26 May 2015. However, Schedule 1 of the Act commenced at the same time as Part 1 of Schedule 2 to the Norfolk Island Legislation Amendment Act 2015, which was on 1 July 2016."
+  },
+  "query_id_123": {
+    "query": "What is the meaning of the term \"jurisdictional fact\" as defined by the High Court in the case of Corporation of the City of Enfield v Development Assessment Commission [2000] HCA 5?",
+    "doc_id": "153",
+    "original_qa_id": "153",
+    "citation": "V -v- Commission for Children and Young People [2001] NSWADT 96",
+    "answer": "In the case of Corporation of the City of Enfield v Development Assessment Commission [2000] HCA 5, the High Court defined the term \"jurisdictional fact\" as the criterion, satisfaction of which enlivens the power of the decision-maker to exercise a discretion. This term may refer to a complex of elements."
+  },
+  "query_id_124": {
+    "query": "In the case of Pi v Zhou [2015] NSWSC 470, when was the default judgment entered by the court?",
+    "doc_id": "156",
+    "original_qa_id": "156",
+    "citation": "Pi v Zhou [2015] NSWSC 470",
+    "answer": "In the case of Pi v Zhou [2015] NSWSC 470, the court entered the default judgment on 16 July 2014."
+  },
+  "query_id_125": {
+    "query": "What was the decision of Barrett J in the case of Gerard Cassegrain & Co Pty Ltd & Ors v Claude Cassegrain & Anor [2012] NSWSC 285 regarding the inquiry for equitable compensation?",
+    "doc_id": "157",
+    "original_qa_id": "157",
+    "citation": "Gerard Cassegrain & Co Pty Ltd & Ors v Claude Cassegrain & Anor [2012] NSWSC 285",
+    "answer": "In the case of Gerard Cassegrain & Co Pty Ltd & Ors v Claude Cassegrain & Anor [2012] NSWSC 285, Barrett J held that the Court should order an inquiry to establish the amount of equitable compensation to be given and order payment of the sum determined upon inquiry. The inquiry should be as to all sums drawn from the relevant loan account and the order should be that equitable compensation be in the aggregate of the sums found to have been drawn, with interest on each component from the date of drawing to the date of the order, calculated in accordance with Practice Note SC Gen 16."
+  },
+  "query_id_126": {
+    "query": "What is the compliance requirement for the Rudder Pedal Guard Plate as per the AD/GAF-N22/51 directive in the Commonwealth of Australia's Civil Aviation Regulations 1998?",
+    "doc_id": "158",
+    "original_qa_id": "158",
+    "citation": "AD/GAF-N22/51 - Rudder Pedal Guard Plate (Cth)",
+    "answer": "As per the AD/GAF-N22/51 directive in the Commonwealth of Australia's Civil Aviation Regulations 1998, the compliance requirement for the Rudder Pedal Guard Plate is action in accordance with GAF Service Bulletin NMD-27-34. This action must be taken within 100 hours time in service, or at the next scheduled inspection for Maintenance Release issued after 31 December 1985, whichever is the later."
+  },
+  "query_id_127": {
+    "query": "What events led to the death of Mr Sthapit in the case of R v Tabalbag [2016] NSWSC 1570?",
+    "doc_id": "159",
+    "original_qa_id": "159",
+    "citation": "R v Tabalbag [2016] NSWSC 1570",
+    "answer": "In the case of R v Tabalbag [2016] NSWSC 1570, Mr Tabalbag became suspicious when he checked the location of Ms Rebucas's iPhone and found it was still at their apartment when she should have been at cooking school. He returned to the apartment and found Ms Rebucas and Mr Sthapit in bed together. In response, Mr Tabalbag grabbed a chef\u2019s knife and stabbed Mr Sthapit multiple times, leading to Mr Sthapit's death shortly afterwards."
+  },
+  "query_id_128": {
+    "query": "What does Section 10 of the Crimes (Sentencing Procedure) Act in New South Wales provide for a court that finds a person guilty of an offence?",
+    "doc_id": "162",
+    "original_qa_id": "162",
+    "citation": "R v Piccin (No 2) [2001] NSWCCA 323",
+    "answer": "Section 10 of the Crimes (Sentencing Procedure) Act in New South Wales provides that a court that finds a person guilty of an offence may, without proceeding to conviction, make either of the following orders: an order directing that the relevant charge be dismissed, or an order discharging the person on condition that the person enter into a good behaviour bond for a term not exceeding 2 years. An order for discharge on a good behaviour bond may be made if the court is satisfied that it is inexpedient to inflict any punishment (other than nominal punishment) on the person, or that it is expedient to release the person on a good behaviour bond. In deciding whether to make an order, the court is to have regard to certain factors, as per the decision in R v Piccin (No 2) [2001] NSWCCA 323."
+  },
+  "query_id_129": {
+    "query": "What is the responsibility of a person using material from the judgment or decision of Burns v Gaynor [2015] NSWCATAD 24?",
+    "doc_id": "164",
+    "original_qa_id": "164",
+    "citation": "Burns v Gaynor [2015] NSWCATAD 24",
+    "answer": "In the decision of Burns v Gaynor [2015] NSWCATAD 24, it is stated that the onus remains on any person using material in the judgment or decision to ensure that the intended use of that material does not breach any suppression orders or statutory provisions prohibiting publication that may apply to this judgment or decision. Further enquiries may be directed to the Registry of the Court or Tribunal in which it was generated."
+  },
+  "query_id_130": {
+    "query": "In the case of ISG Management Pty Ltd v Mutch [2020] FCAFC 213, what does the court's use of the word \"may\" in the context of making a declassing order suggest?",
+    "doc_id": "165",
+    "original_qa_id": "165",
+    "citation": "ISG Management Pty Ltd v Mutch [2020] FCAFC 213",
+    "answer": "In the case of ISG Management Pty Ltd v Mutch [2020] FCAFC 213, the court's use of the word \"may\" in the context of making a declassing order suggests that the court can make a declassing order \"at the discretion of the \u2026 court\", as per the Acts Interpretation Act 1901 (Cth) s 33(2A)."
+  },
+  "query_id_131": {
+    "query": "What is the purpose of the general purpose financial assistance provided by the Commonwealth to Western Australia and the Australian Capital Territory, as outlined in the Federal Financial Relations (General purpose financial assistance) Determination No. 58 (January 2014) (Cth)?",
+    "doc_id": "166",
+    "original_qa_id": "166",
+    "citation": "Federal Financial Relations (General purpose financial assistance) Determination No. 58 (January 2014) (Cth)",
+    "answer": "According to the Federal Financial Relations (General purpose financial assistance) Determination No. 58 (January 2014) (Cth), the Commonwealth provides general purpose financial assistance to Western Australia to compensate for the loss of royalty revenue resulting from the removal in the 2008-09 Budget of the exemption of condensate from crude oil excise, and from royalties payable under the Offshore Petroleum (Royalty) Act 2006 in respect of the North West Shelf oil and gas project off the coast of Western Australia. The Commonwealth also provides general purpose financial assistance to the Australian Capital Territory to assist in meeting the additional municipal costs which arise from Canberra's role as the national capital and to compensate for additional costs resulting from the national capital planning influences on the provision of water and sewerage services."
+  },
+  "query_id_132": {
+    "query": "What is the responsibility of a person using material from the decision of the Civil and Administrative Tribunal of New South Wales in the case of DWZ v Wandiyali [2019] NSWCATAD 190?",
+    "doc_id": "167",
+    "original_qa_id": "167",
+    "citation": "DWZ v Wandiyali [2019] NSWCATAD 190",
+    "answer": "In the case of DWZ v Wandiyali [2019] NSWCATAD 190, the Civil and Administrative Tribunal of New South Wales states that the onus remains on any person using material in the judgment or decision to ensure that the intended use of that material does not breach any suppression orders or statutory provisions prohibiting publication that may apply to this judgment or decision."
+  },
+  "query_id_133": {
+    "query": "Under the Federal Court Rules, what action can the court take if the applicant does not appear at the hearing?",
+    "doc_id": "168",
+    "original_qa_id": "168",
+    "citation": "Chen v Minister for Immigration & Multicultural Affairs [1999] FCA 959",
+    "answer": "Under the Federal Court Rules, O 32, r 2(1)(c), the Court is permitted to dismiss the action if the applicant does not appear at the hearing. This was applied in the case of Chen v Minister for Immigration & Multicultural Affairs [1999] FCA 959."
+  },
+  "query_id_134": {
+    "query": "What is the definition of an 'NDIS behaviour support practitioner' as per the National Disability Insurance Scheme (NDIS Behaviour Support Practitioner Application) Guidelines 2020 (Cth)?",
+    "doc_id": "171",
+    "original_qa_id": "171",
+    "citation": "National Disability Insurance Scheme (NDIS Behaviour Support Practitioner Application) Guidelines 2020 (Cth)",
+    "answer": "According to the National Disability Insurance Scheme (NDIS Behaviour Support Practitioner Application) Guidelines 2020 (Cth), an 'NDIS behaviour support practitioner' is a person whom the Commissioner of the NDIS Quality and Safeguards Commission, or a person to whom the Commissioner has delegated the power, considers to be suitable to undertake behaviour support assessments (including functional behavioural assessments) and to develop behaviour support plans that may contain the use of restrictive practices."
+  },
+  "query_id_135": {
+    "query": "In the case of A & D Douglas Pty Ltd v Lawyers Private Mortgages Pty Ltd [2005] FCA 574, what was the respondent's argument regarding the non-disclosure of information at the time of renewal of the relevant insurance policy?",
+    "doc_id": "173",
+    "original_qa_id": "173",
+    "citation": "A & D Douglas Pty Ltd v Lawyers Private Mortgages Pty Ltd [2005] FCA 574",
+    "answer": "In the case of A & D Douglas Pty Ltd v Lawyers Private Mortgages Pty Ltd [2005] FCA 574, the respondent argued that the losses incurred in individual transactions over a certain period were within acceptable parameters for the industry. Therefore, they believed that the disclosure of the relevant information was not necessary because its non-disclosure did not cause any additional loss to the insurer. They suggested that this was a factor relevant to assessing the response which the insurer would have taken had disclosure of these circumstances been made at the appropriate time."
+  },
+  "query_id_136": {
+    "query": "In the case of Anastassios Carydias v The Greek Orthodox Community of Melbourne and Victoria [1995] IRCA 134, what was the court's view on the allegations of fraud against the applicant?",
+    "doc_id": "174",
+    "original_qa_id": "174",
+    "citation": "Anastassios Carydias v The Greek Orthodox Community of Melbourne and Victoria [1995] IRCA 134",
+    "answer": "In the case of Anastassios Carydias v The Greek Orthodox Community of Melbourne and Victoria [1995] IRCA 134, the court did not find the allegations of fraud against the applicant to be substantiated when applying the appropriate standard of proof."
+  },
+  "query_id_137": {
+    "query": "Who was appointed as a part-time member of the Companies Auditors Disciplinary Board under the Australian Securities and Investments Commission Act 2001, and for what duration?",
+    "doc_id": "175",
+    "original_qa_id": "175",
+    "citation": "Australian Securities and Investments Commission (Companies Auditors Disciplinary Board\u2014Part-time Member) Appointment (No. 4) 2023 (Cth)",
+    "answer": "Under the Australian Securities and Investments Commission (Companies Auditors Disciplinary Board\u2014Part-time Member) Appointment (No. 4) 2023 (Cth), Tony Brain was appointed as an accounting member of the Companies Auditors Disciplinary Board on a part-time basis for a period of one year, beginning on the day after the instrument was registered on the Federal Register of Legislation."
+  },
+  "query_id_138": {
+    "query": "What does the term \"SRCA Notice 2015\" refer to in the context of the Military Rehabilitation and Compensation (Members \u2013 War Artists and Entertainers - Service End Date) Amendment Determination 2015 (Cth)?",
+    "doc_id": "177",
+    "original_qa_id": "177",
+    "citation": "Military Rehabilitation and Compensation (Members \u2013 War Artists and Entertainers - Service End Date) Amendment Determination 2015 (Cth)",
+    "answer": "In the Military Rehabilitation and Compensation (Members \u2013 War Artists and Entertainers - Service End Date) Amendment Determination 2015 (Cth), the term \"SRCA Notice 2015\" refers to the Safety, Rehabilitation and Compensation (Definition of Employee \u2013 War Artists and Entertainers) Notice 2015."
+  },
+  "query_id_139": {
+    "query": "In the case of Natural Floor Covering Pty Ltd v Monamy (No 2) [2006] FCA 519, what was the court's decision regarding the amendment of charge 2?",
+    "doc_id": "178",
+    "original_qa_id": "178",
+    "citation": "Natural Floor Covering Pty Ltd v Monamy (No 2) [2006] FCA 519",
+    "answer": "In the case of Natural Floor Covering Pty Ltd v Monamy (No 2) [2006] FCA 519, the court allowed the amendment of charge 2. The court held that there was no prejudice to the respondent due to this amendment."
+  },
+  "query_id_140": {
+    "query": "In the matter of MK Group Phoenix Pty Ltd [2014] NSWSC 1467, what was the final decision of MK Group regarding the purchase of the Atchison Street property?",
+    "doc_id": "180",
+    "original_qa_id": "180",
+    "citation": "In the matter of MK Group Phoenix Pty Ltd [2014] NSWSC 1467",
+    "answer": "In the matter of MK Group Phoenix Pty Ltd [2014] NSWSC 1467, it was stated that MK Group Pty Ltd decided not to pursue the purchase of the Atchison Street, Crows Nest property any longer."
+  },
+  "query_id_141": {
+    "query": "In the case of Green v Ogden [2003] NSWSC 558, what was the court's view on the Deceased's statement about the Plaintiff's husband's alleged gambling problem?",
+    "doc_id": "184",
+    "original_qa_id": "184",
+    "citation": "Green v Ogden [2003] NSWSC 558",
+    "answer": "In Green v Ogden [2003] NSWSC 558, the court found no direct evidence to support the Deceased's statement about the Plaintiff's husband's alleged gambling problem. The Deceased's statement was based on an unidentified and unsourced rumour. The court preferred the direct evidence of the Plaintiff's own observations over the Deceased's unsourced rumour."
+  },
+  "query_id_142": {
+    "query": "Under the Adoption Act 2000 in New South Wales, how is an application for adoption handled if the child has already been placed with prospective adoptive parents?",
+    "doc_id": "186",
+    "original_qa_id": "186",
+    "citation": "Re JM [2005] NSWSC 976",
+    "answer": "Under the Adoption Act 2000 in New South Wales, if a child has already been placed with a view to adoption by prospective adoptive parents, an application to adopt the child by that parent or those parents is to continue to be dealt with under the Adoption of Children Act 1965, as per the transitional provisions in Schedule 3, clause 8. This was stated in the decision Re JM [2005] NSWSC 976."
+  },
+  "query_id_143": {
+    "query": "What events were captured on the video footage in the case of Kurt Michael Devetak v R [2018] NSWDC 23 in New South Wales?",
+    "doc_id": "019",
+    "original_qa_id": "019",
+    "citation": "Kurt Michael Devetak v R [2018] NSWDC 23",
+    "answer": "In the case of Kurt Michael Devetak v R [2018] NSWDC 23 in New South Wales, the video footage captured the appellant landing on top of Mr Tompkins, punching him with his right hand on the left side of his head, standing with his legs on either side of Mr Tompkins' torso, leaning down towards Mr Tompkins, standing up a little, and then punching him again on the left side of his head. At about the same time, Constable Cross was seen lying on Mr Tompkins\u2019 legs and pinning them to the ground."
+  },
+  "query_id_144": {
+    "query": "In the case \"A\" bht \"S\" v State of NSW [2011] NSWDC 54, what was the reason for requiring a secure court?",
+    "doc_id": "033",
+    "original_qa_id": "033",
+    "citation": "\"A\" bht \"S\" v State of NSW [2011] NSWDC 54",
+    "answer": "In the case \"A\" bht \"S\" v State of NSW [2011] NSWDC 54, a secure court was required due to the plaintiff's psychiatric condition."
+  },
+  "query_id_145": {
+    "query": "What was the decision in the case of Charan v Commonwealth Bank of Australia [2015] NSWSC 411 in the New South Wales jurisdiction?",
+    "doc_id": "102",
+    "original_qa_id": "102",
+    "citation": "Charan v Commonwealth Bank of Australia [2015] NSWSC 411",
+    "answer": "In the case of Charan v Commonwealth Bank of Australia [2015] NSWSC 411, the decision was that the statement of claim was dismissed against each defendant pursuant to rule 13.4. The proceedings were dismissed and the plaintiffs were estopped from prosecuting claims."
+  },
+  "query_id_146": {
+    "query": "In the case of BVT v Children\u2019s Guardian (No 2) [2016] NSWCATAD 266, what was the applicant's submission regarding the prior determination of the application by the Tribunal?",
+    "doc_id": "163",
+    "original_qa_id": "163",
+    "citation": "BVT v Children\u2019s Guardian (No 2) [2016] NSWCATAD 266",
+    "answer": "In the case of BVT v Children\u2019s Guardian (No 2) [2016] NSWCATAD 266, the applicant submitted that the prior determination of the application by the Tribunal may give rise to an apprehension of bias. The applicant also submitted that there was a determination about their credibility and a cross examination by the Presiding Member, which they believed could also give rise to an apprehension of bias."
+  }
+}
