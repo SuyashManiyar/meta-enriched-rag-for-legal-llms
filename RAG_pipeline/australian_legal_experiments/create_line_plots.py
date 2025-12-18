@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Create line plots showing performance across different k values
+Updated for australian_legal_experiments folder structure
 """
 
 import matplotlib.pyplot as plt
@@ -11,10 +12,10 @@ def load_evaluation_results():
     """Load evaluation results from all configurations."""
     
     result_files = {
-        'Recursive Dense-only': 'australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_only_alternate_results.json',
-        'Recursive Dense+Sparse': 'australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_sparse_alternate_results.json',
-        'Meta-Recursive Dense-only': 'australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_only_alternate_results.json',
-        'Meta-Recursive Dense+Sparse': 'australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_sparse_alternate_results.json'
+        'Recursive Dense-only': '../../australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_only_alternate_results.json',
+        'Recursive Dense+Sparse': '../../australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_sparse_alternate_results.json',
+        'Meta-Recursive Dense-only': '../../australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_only_alternate_results.json',
+        'Meta-Recursive Dense+Sparse': '../../australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_sparse_alternate_results.json'
     }
     
     results = {}
@@ -59,7 +60,7 @@ def extract_metrics_across_k(results):
     return metrics_data
 
 def create_line_plots(metrics_data):
-    """Create line plots for all metrics across k values."""
+    """Create line plots for the 2 most important metrics across k values."""
     
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
     
@@ -103,12 +104,18 @@ def create_line_plots(metrics_data):
     ax2.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('performance_line_plots_alternate_only.png', dpi=300, bbox_inches='tight')
-    plt.savefig('performance_line_plots_alternate_only.pdf', bbox_inches='tight')
     
-    print("Line plots (Span Recall + DRM, Alternate Results) saved as:")
-    print("- performance_line_plots_alternate_only.png")
-    print("- performance_line_plots_alternate_only.pdf")
+    # Create plots directory if it doesn't exist
+    import os
+    os.makedirs('../plots', exist_ok=True)
+    
+    # Save with descriptive experiment-based naming
+    plt.savefig('../plots/australian_legal_chunking_comparison_span_recall_drm.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../plots/australian_legal_chunking_comparison_span_recall_drm.pdf', bbox_inches='tight')
+    
+    print("Line plots (Australian Legal - Chunking Comparison) saved as:")
+    print("- ../plots/australian_legal_chunking_comparison_span_recall_drm.png")
+    print("- ../plots/australian_legal_chunking_comparison_span_recall_drm.pdf")
     
     plt.show()
 

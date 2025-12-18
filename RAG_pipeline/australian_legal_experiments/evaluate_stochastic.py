@@ -14,16 +14,16 @@ import os
 OUTPUT_DIR = "australian_legal_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Baseline (Recursive) Dense+Sparse
-GROUND_TRUTH_JSON = "australian_legal_data/aus_test_qa_corrected.json"  # Corrected ground truth
-BASELINE_RETRIEVAL_JSON = "australian_legal_data/results_recursive/australian_legal_retrieval_results_recursive_dense_sparse.json"  # Baseline Dense+Sparse
+# Baseline (Recursive) Dense+Sparse - 380 Queries
+GROUND_TRUTH_JSON = "australian_legal_data/australian_legal_w_query_ids.json"  # Ground truth (146 queries available)
+BASELINE_RETRIEVAL_JSON = "australian_legal_data/results_recursive/retreived_results/australian_legal_retrieval_results_recursive_dense_sparse_380.json"  # Baseline Dense+Sparse 380
 BASELINE_CHUNK_TEXT_JSON = "australian_legal_data/generated_chunks/australian_legal_text_recursive_chunking.json"  # Baseline chunks
-BASELINE_OUTPUT_JSON = "australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_sparse_stochastic_results.json"
+BASELINE_OUTPUT_JSON = "australian_legal_data/results_recursive/australian_legal_evaluation_recursive_dense_sparse_380_stochastic_results.json"
 
-# Enhanced (Meta-Recursive) Dense+Sparse  
-ENHANCED_RETRIEVAL_JSON = "australian_legal_data/results_meta_recursive/australian_legal_retrieval_results_meta_recursive_dense_sparse.json"  # Enhanced Dense+Sparse
+# Enhanced (Meta-Recursive) Dense+Sparse - 380 Queries (if available)
+ENHANCED_RETRIEVAL_JSON = "australian_legal_data/results_meta_recursive/australian_legal_retrieval_results_meta_recursive_dense_sparse_380.json"  # Enhanced Dense+Sparse 380
 ENHANCED_CHUNK_TEXT_JSON = "australian_legal_data/generated_chunks/australian_legal_text_meta_recursive_chunking.json"  # Enhanced chunks
-ENHANCED_OUTPUT_JSON = "australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_sparse_stochastic_results.json"
+ENHANCED_OUTPUT_JSON = "australian_legal_data/results_meta_recursive/australian_legal_evaluation_meta_recursive_dense_sparse_380_stochastic_results.json"
 
 # ============================================================
 
@@ -37,6 +37,9 @@ def load_json(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
 
 def spans_overlap(span1, span2):
+    # Handle empty spans (new ground truth format doesn't have spans)
+    if not span1 or not span2 or len(span1) < 2 or len(span2) < 2:
+        return False
     a1, a2 = span1
     b1, b2 = span2
     return not (a2 < b1 or b2 < a1)
@@ -83,34 +86,48 @@ def word_overlap_sim(gt_text, chunk_text, threshold=0.75):
 def index_ground_truth(gt_raw):
     """
     Index ground truth for Australian legal data format.
-    Expected format: {qa_id: {question, answer, citation, span, document_path}}
+    Expected format: {query_id: {query, doc_id, answer, citation, ...}}
     """
     lookup = {}
     
     if isinstance(gt_raw, dict):
-        # Australian legal format: direct dict of QA pairs
-        for qa_id, qa_data in gt_raw.items():
-            question = qa_data.get("question", "")
-            answer = qa_data.get("answer", "")
-            span = qa_data.get("span", [])
-            doc_path = qa_data.get("document_path", "")
-            
-            # Extract document ID from document path for matching
-            # Format: australian_legal_documents_final\001_judgments.fedcourt.gov.au...
-            doc_id = None
-            if doc_path:
-                # Extract the document number (001, 003, etc.)
-                import re
-                match = re.search(r'\\(\d+)_', doc_path) or re.search(r'/(\d+)_', doc_path)
-                if match:
-                    doc_id = match.group(1)
-            
-            lookup[question] = [{
-                "file_path": doc_id,  # Use document ID for matching
-                "span": span,
-                "answer": answer,
-                "document_path": doc_path
-            }]
+        # New 380-query format: {query_id: {query, doc_id, answer, citation, ...}}
+        for query_id, query_data in gt_raw.items():
+            if "query" in query_data and "doc_id" in query_data:
+                # New format with query and doc_id
+                question = query_data.get("query", "")
+                answer = query_data.get("answer", "")
+                doc_id = query_data.get("doc_id", "")
+                
+                lookup[question] = [{
+                    "file_path": doc_id,  # Use document ID for matching
+                    "span": [],  # No span info in new format
+                    "answer": answer,
+                    "doc_id": doc_id
+                }]
+            else:
+                # Old format compatibility
+                question = query_data.get("question", "")
+                answer = query_data.get("answer", "")
+                span = query_data.get("span", [])
+                doc_path = query_data.get("document_path", "")
+                
+                # Extract document ID from document path for matching
+                # Format: australian_legal_documents_final\001_judgments.fedcourt.gov.au...
+                doc_id = None
+                if doc_path:
+                    # Extract the document number (001, 003, etc.)
+                    import re
+                    match = re.search(r'\\(\d+)_', doc_path) or re.search(r'/(\d+)_', doc_path)
+                    if match:
+                        doc_id = match.group(1)
+                
+                lookup[question] = [{
+                    "file_path": doc_id,  # Use document ID for matching
+                    "span": span,
+                    "answer": answer,
+                    "document_path": doc_path
+                }]
     else:
         # Old format compatibility
         if isinstance(gt_raw, list):
@@ -353,9 +370,11 @@ def main():
     gt_raw = load_json(GROUND_TRUTH_JSON)
     gt_index = index_ground_truth(gt_raw)
     
-    print("Starting stochastic evaluation for both approaches...")
+    print("Starting stochastic evaluation for 380-query dataset...")
+    print(f"Total queries in ground truth: {len(gt_raw)}")
     
     # Evaluate baseline approach
+    print("\n" + "="*60)
     baseline_results = evaluate_approach(
         "Baseline", 
         BASELINE_RETRIEVAL_JSON, 
@@ -364,22 +383,34 @@ def main():
         gt_index
     )
     
-    # Evaluate enhanced approach
-    enhanced_results = evaluate_approach(
-        "Enhanced", 
-        ENHANCED_RETRIEVAL_JSON, 
-        ENHANCED_CHUNK_TEXT_JSON, 
-        ENHANCED_OUTPUT_JSON, 
-        gt_index
-    )
+    # # Check if enhanced approach files exist
+    # import os
+    # if os.path.exists(ENHANCED_RETRIEVAL_JSON):
+    #     print("\n" + "="*60)
+    #     # Evaluate enhanced approach
+    #     enhanced_results = evaluate_approach(
+    #         "Enhanced", 
+    #         ENHANCED_RETRIEVAL_JSON, 
+    #         ENHANCED_CHUNK_TEXT_JSON, 
+    #         ENHANCED_OUTPUT_JSON, 
+    #         gt_index
+    #     )
+    #     
+    #     print("\n" + "="*60)
+    #     print("STOCHASTIC EVALUATION COMPLETE!")
+    #     print("="*60)
+    #     print("Files generated:")
+    #     print(f"- {BASELINE_OUTPUT_JSON}")
+    #     print(f"- {ENHANCED_OUTPUT_JSON}")
+    #     print("\nBoth baseline and enhanced approaches evaluated with dense+sparse retrieval.")
+    # else:
     
     print("\n" + "="*60)
     print("STOCHASTIC EVALUATION COMPLETE!")
     print("="*60)
     print("Files generated:")
     print(f"- {BASELINE_OUTPUT_JSON}")
-    print(f"- {ENHANCED_OUTPUT_JSON}")
-    print("\nBoth baseline and enhanced approaches evaluated with dense+sparse retrieval.")
+    print("\nBaseline approach evaluated with dense+sparse retrieval on 380 queries.")
 
 if __name__ == "__main__":
     main()
