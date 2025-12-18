@@ -76,7 +76,6 @@ privacyQA/*.json
 *.svg
 
 # Documentation files
-*.md
 *.doc
 *.docx
 
@@ -146,19 +145,14 @@ node_modules/
 
 # Compiled documents
 *.pdf
-*.md
 *.doc
 *.docx
-!README.pdf
-!README.md
 !paper.pdf
 !documentation.pdf
-
 # Experimental outputs
 experiments/
 outputs/
 results_backup/
-
 # Database files
 *.db
 *.sqlite
