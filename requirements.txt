@@ -1,0 +1,56 @@
+# Meta-Enriched RAG for Legal LLMs - Requirements
+
+# Core Dependencies
+torch>=1.13.0
+transformers>=4.21.0
+sentence-transformers>=2.2.0
+numpy>=1.21.0
+scipy>=1.9.0
+pandas>=1.5.0
+scikit-learn>=1.1.0
+
+# RAG and Retrieval
+faiss-cpu>=1.7.0
+rank-bm25>=0.2.2
+datasets>=2.5.0
+
+# Text Processing
+nltk>=3.7
+spacy>=3.4.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Web Scraping (Optional)
+requests>=2.28.0
+selenium>=4.8.0
+
+# Visualization and Analysis
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Statistical Analysis
+statsmodels>=0.13.0
+pingouin>=0.5.0
+
+# Utilities
+tqdm>=4.64.0
+python-dotenv>=0.19.0
+pathlib>=1.0.1
+typing-extensions>=4.3.0
+
+# Development and Testing
+pytest>=7.1.0
+black>=22.6.0
+flake8>=5.0.0
+jupyter>=1.0.0
+ipykernel>=6.15.0
+
+# Optional: GPU Support
+# torch>=1.13.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+# faiss-gpu>=1.7.0
+
+# Optional: Advanced NLP
+# spacy[en_core_web_sm]>=3.4.0
